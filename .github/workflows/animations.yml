@@ -2,7 +2,7 @@ name: Generate Profile Animations
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -19,7 +19,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 1. Generate Snake Animation
+      # 1. Create the output directory manually first
+      - name: setup dist
+        run: mkdir -p dist
+
+      # 2. Generate Snake Animation (configured to output into dist)
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -28,18 +32,20 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # 2. Generate Pacman Animation
+      # 3. Generate Pacman Animation
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
       
-      # 3. Move Pacman SVG into the 'dist' folder
+      # 4. Move Pacman SVG with a "Find and Move" logic
+      # This fixes the 'No such file' error by locating the file anywhere in the workspace
       - name: organize files
         run: |
-          mv pacman-contribution-graph.svg dist/
+          find . -name "pacman-contribution-graph.svg" -exec mv {} dist/ \;
+          ls -R dist/ # This logs the contents so you can see if it worked in the Action logs
 
-      # 4. Push everything in 'dist' to the output branch
+      # 5. Push to the output branch
       - name: push animations to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
