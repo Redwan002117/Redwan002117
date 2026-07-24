@@ -60,8 +60,6 @@ I love bridging the gap between hardware and software. Whether I'm designing ful
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Redwan002117&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
 </p>
 
-<img src="https://raw.githubusercontent.com/Redwan002117/Redwan002117/output/snake.svg" alt="Snake animation" />
-
 ### 🏆 GitHub Trophies
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Redwan002117&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="Trophies" />
@@ -72,14 +70,6 @@ I love bridging the gap between hardware and software. Whether I'm designing ful
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
 </p>
 
-### 🔝 Contributions
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Redwan002117/Redwan002117/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Redwan002117/Redwan002117/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Redwan002117/Redwan002117/output/pacman-contribution-graph.svg">
-</picture>
-
-###
 
 ---
 <div align="center">
