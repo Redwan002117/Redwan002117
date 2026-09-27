@@ -1,11 +1,11 @@
-# Hi there, I'm Redwan Rashid (aka Ricky) 👋
+# Hi there, I'm [Redwan Rashid](https://rico.bd/) (aka Ricky) 👋
 
 ### A passionate Software Developer, Hardware Tinkerer, and BCSE Student at IUBAT.
 
 I love bridging the gap between hardware and software. Whether I'm designing full-stack web applications, tinkering with microcontrollers, or managing my own local home server, I enjoy building things from the ground up. 
 
 * 🎓 **Education:** Currently pursuing my Bachelor of Computer Science and Engineering (BCSE) at IUBAT.
-* 💻 **Web Portfolios:** Check out my work at **redwancodes.com** and my personal site at **Rico.bd**.
+* 💻 **Web Portfolios:** Check out my works in my **[Portfolio](https://rico.bd/)** site.
 * 🖥️ **Self-Hosting & Homelab:** Passionate about local servers, deploying Docker containers, configuring CasaOS, and running local AI models. 
 * 🛠️ **Hardware Tinkering:** I enjoy custom PC building and hardware components. 
 * 🎨 **Design:** In my free time, I enjoy designing brand identities, logos, and posters.
@@ -48,28 +48,23 @@ I love bridging the gap between hardware and software. Whether I'm designing ful
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=flat&logo=Raspberry-Pi) ![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=flat&logo=home-assistant&logoColor=white) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=flat&logo=eclipsemosquitto&logoColor=white) ![Jellyfin](https://img.shields.io/badge/jellyfin-%23000B25.svg?style=flat&logo=Jellyfin&logoColor=00A4DC) 
 
 ---
-
 ## 📊 GitHub Stats:
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Redwan002117&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</p>
-<p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Redwan002117&theme=dark&hide_border=false" alt="GitHub Streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Redwan002117&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
-</p>
+<div align="center">
 
-### 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Redwan002117&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="Trophies" />
-</p>
+![GitHub Stats Card](https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=11&size=compact)
+  
+![GitHub Stats Card](https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=11&custom_title=My+Stats+%3A)
+
+![Top Languages](https://ghstats.dev/api/langs?username=Redwan002117&theme=light&layout=grid)
+
+![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=Redwan002117&theme=light&days=90&width=640&height=150)
+
+</div>
 
 ### ✍️ Random Dev Quote
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
 </p>
-
 
 ---
 <div align="center">
