@@ -35,6 +35,18 @@ THEMES = {
     },
 }
 
+ICONS = Path(__file__).resolve().parent / "src" / "icons"
+
+
+def lucide(name, color, size=32, width=2.0):
+    """A Lucide icon (ISC licence, tools/src/icons) centred on 0,0."""
+    raw = (ICONS / f"{name}.svg").read_text(encoding="utf-8")
+    inner = raw[raw.index(">", raw.index("<svg")) + 1: raw.rindex("</svg>")].strip()
+    k = size / 24
+    return (f'<g transform="translate({-size / 2:.1f} {-size / 2:.1f}) scale({k:.4f})" fill="none" stroke="{color}" '
+            f'stroke-width="{width}" stroke-linecap="round" stroke-linejoin="round">{inner}</g>')
+
+
 REDUCED = "@media (prefers-reduced-motion: reduce){*{animation:none!important}}"
 
 
@@ -166,32 +178,32 @@ PROJECTS = [
     {
         "id": "collectra", "title": "Collectra CMS", "status": "Live",
         "lines": ["Collections and hire-purchase accounts for", "retail branches, with Android and iPhone apps."],
-        "tags": ["React", "Supabase", "Capacitor"], "accent": "a1", "glyph": "shield",
+        "tags": ["React", "Supabase", "Capacitor"], "accent": "a1", "glyph": "shield-check",
     },
     {
         "id": "timeforge", "title": "TimeForge", "status": "Building",
         "lines": ["An open-world builder on the real map", "of Earth, running in the browser."],
-        "tags": ["three.js", "MapLibre", "Node"], "accent": "a2", "glyph": "globe",
+        "tags": ["three.js", "MapLibre", "Node"], "accent": "a2", "glyph": "earth",
     },
     {
         "id": "systracker", "title": "SysTracker", "status": "Live",
         "lines": ["Self-hosted monitoring for a fleet of", "machines: CPU, memory, disk, network."],
-        "tags": ["Docker", "Node", "Agents"], "accent": "a4", "glyph": "pulse",
+        "tags": ["Docker", "Node", "Agents"], "accent": "a4", "glyph": "activity",
     },
     {
         "id": "perfumevault", "title": "Perfume Vault", "status": "Live",
         "lines": ["A perfume storefront with its own admin", "and content tools, for a Dhaka retailer."],
-        "tags": ["Next.js", "Supabase", "Tailwind"], "accent": "a3", "glyph": "bottle",
+        "tags": ["Next.js", "Supabase", "Tailwind"], "accent": "a3", "glyph": "spray-can",
     },
     {
         "id": "advance", "title": "Advance Manager", "status": "Live",
         "lines": ["Tracks advance payments across companies,", "vendors and crews, request to settlement."],
-        "tags": ["TypeScript", "PostgreSQL", "Docker"], "accent": "a1", "glyph": "ledger",
+        "tags": ["TypeScript", "PostgreSQL", "Docker"], "accent": "a1", "glyph": "wallet",
     },
     {
         "id": "messmanager", "title": "MessManager", "status": "Live",
         "lines": ["Meals, groceries and dues for a shared mess:", "meal rate, ledgers and settlement."],
-        "tags": ["Next.js", "Supabase", "PWA"], "accent": "a2", "glyph": "bowl",
+        "tags": ["Next.js", "Supabase", "PWA"], "accent": "a2", "glyph": "utensils-crossed",
     },
 ]
 
@@ -251,7 +263,7 @@ def card(t, p):
   <g clip-path="url(#frame)">
     <rect width="{w}" height="{h}" fill="{t['card']}"/>
     <rect width="{w}" height="{h}" fill="url(#glow)" class="glow"/>
-    <g transform="translate({w - 56} 52)" opacity=".9">{glyph(p['glyph'], c)}</g>
+    <g transform="translate({w - 56} 54)">{lucide(p['glyph'], c, 34)}</g>
     <text x="32" y="62" class="title">{escape(p['title'])}</text>
     <text x="{w - 32}" y="169" class="status" text-anchor="end">{escape(p['status'])}</text>
     {f'<circle cx="{w - 46 - len(p["status"]) * 6.6:.0f}" cy="164" r="4.5" fill="{c}" class="dot"/>' if live else ''}
@@ -344,12 +356,12 @@ def timeline(t):
 
 # Smaller tiles for "More from the workbench".
 WORKBENCH = [
-    {"id": "beeezee", "title": "BeeEzee", "line": "ERP and CRM for a growing business", "where": "beeezee.bohuvuj.com", "accent": "a1", "glyph": "ledger"},
-    {"id": "bohupay", "title": "BohuPay", "line": "Drop-in payments for Bangladeshi gateways", "where": "Bohuvuj", "accent": "a2", "glyph": "card"},
-    {"id": "subash", "title": "Subash", "line": "A fragrance storefront", "where": "suubas.com", "accent": "a3", "glyph": "bottle"},
-    {"id": "feeder", "title": "Purrfect Feeder", "line": "An ESP32 pet feeder run from a phone", "where": "purrfectfeeder.rico.bd", "accent": "a4", "glyph": "paw"},
-    {"id": "homelab", "title": "Homelab", "line": "Docker server and ESP32-C6 Wi-Fi sensing", "where": "at home", "accent": "a1", "glyph": "chip"},
-    {"id": "research", "title": "Research", "line": "GeoFormer thesis code, exoplanet notebooks", "where": "public repos", "accent": "a2", "glyph": "orbit"},
+    {"id": "beeezee", "title": "BeeEzee", "line": "ERP and CRM for a growing business", "where": "beeezee.bohuvuj.com", "accent": "a1", "glyph": "briefcase-business"},
+    {"id": "bohupay", "title": "BohuPay", "line": "Drop-in payments for Bangladeshi gateways", "where": "Bohuvuj", "accent": "a2", "glyph": "credit-card"},
+    {"id": "subash", "title": "Subash", "line": "A fragrance storefront", "where": "suubas.com", "accent": "a3", "glyph": "flower-2"},
+    {"id": "feeder", "title": "Purrfect Feeder", "line": "An ESP32 pet feeder run from a phone", "where": "purrfectfeeder.rico.bd", "accent": "a4", "glyph": "paw-print"},
+    {"id": "homelab", "title": "Homelab", "line": "Docker server and ESP32-C6 Wi-Fi sensing", "where": "at home", "accent": "a1", "glyph": "server"},
+    {"id": "research", "title": "Research", "line": "GeoFormer thesis code, exoplanet notebooks", "where": "public repos", "accent": "a2", "glyph": "telescope"},
 ]
 
 
@@ -377,7 +389,7 @@ def mini(t, m):
     <rect width="{w}" height="{h}" fill="{t['card']}"/>
     <rect width="{w}" height="{h}" fill="url(#glow)" class="shine"/>
     <rect x="0" y="0" width="4" height="{h}" fill="url(#edge)"/>
-    <g transform="translate(46 48) scale(.82)">{glyph(m['glyph'], c)}</g>
+    <g transform="translate(46 48)">{lucide(m['glyph'], c, 26)}</g>
     <text x="78" y="55" class="title">{escape(m['title'])}</text>
     <text x="26" y="88" class="line">{escape(m['line'])}</text>
     <text x="26" y="110" class="where">{escape(m['where'])}</text>

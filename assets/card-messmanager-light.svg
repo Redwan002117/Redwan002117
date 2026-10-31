@@ -21,7 +21,10 @@
   <g clip-path="url(#frame)">
     <rect width="580" height="200" fill="#ffffff"/>
     <rect width="580" height="200" fill="url(#glow)" class="glow"/>
-    <g transform="translate(524 52)" opacity=".9"><path d="M-15 -1 H15 C15 10 7 15 0 15 C-7 15 -15 10 -15 -1 Z" fill="none" stroke="#818cf8" stroke-width="2"/><path d="M-5 -6 C-7 -9 -3 -11 -5 -14 M3 -6 C1 -9 5 -11 3 -14" fill="none" stroke="#818cf8" stroke-width="1.6" stroke-linecap="round"/></g>
+    <g transform="translate(524 54)"><g transform="translate(-17.0 -17.0) scale(1.4167)" fill="none" stroke="#818cf8" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8" />
+  <path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7" />
+  <path d="m2.1 21.8 6.4-6.3" />
+  <path d="m19 5-7 7" /></g></g>
     <text x="32" y="62" class="title">MessManager</text>
     <text x="548" y="169" class="status" text-anchor="end">Live</text>
     <circle cx="508" cy="164" r="4.5" fill="#818cf8" class="dot"/>

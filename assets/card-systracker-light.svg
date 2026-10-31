@@ -21,7 +21,7 @@
   <g clip-path="url(#frame)">
     <rect width="580" height="200" fill="#ffffff"/>
     <rect width="580" height="200" fill="url(#glow)" class="glow"/>
-    <g transform="translate(524 52)" opacity=".9"><path d="M-16 2 H-8 L-4 -10 L2 12 L6 -2 H16" fill="none" stroke="#7dd3fc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g transform="translate(524 54)"><g transform="translate(-17.0 -17.0) scale(1.4167)" fill="none" stroke="#7dd3fc" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2" /></g></g>
     <text x="32" y="62" class="title">SysTracker</text>
     <text x="548" y="169" class="status" text-anchor="end">Live</text>
     <circle cx="508" cy="164" r="4.5" fill="#7dd3fc" class="dot"/>

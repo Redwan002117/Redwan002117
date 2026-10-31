@@ -21,7 +21,8 @@
   <g clip-path="url(#frame)">
     <rect width="580" height="200" fill="#ffffff"/>
     <rect width="580" height="200" fill="url(#glow)" class="glow"/>
-    <g transform="translate(524 52)" opacity=".9"><rect x="-12" y="-15" width="24" height="30" rx="3" fill="none" stroke="#2dd4bf" stroke-width="2"/><path d="M-6 -6 H6 M-6 0 H6 M-6 6 H2" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round"/></g>
+    <g transform="translate(524 54)"><g transform="translate(-17.0 -17.0) scale(1.4167)" fill="none" stroke="#2dd4bf" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+  <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" /></g></g>
     <text x="32" y="62" class="title">Advance Manager</text>
     <text x="548" y="169" class="status" text-anchor="end">Live</text>
     <circle cx="508" cy="164" r="4.5" fill="#2dd4bf" class="dot"/>

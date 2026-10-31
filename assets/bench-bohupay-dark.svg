@@ -19,7 +19,8 @@
     <rect width="400" height="128" fill="#0d1628"/>
     <rect width="400" height="128" fill="url(#glow)" class="shine"/>
     <rect x="0" y="0" width="4" height="128" fill="url(#edge)"/>
-    <g transform="translate(46 48) scale(.82)"><rect x="-15" y="-10" width="30" height="20" rx="3.5" fill="none" stroke="#7c8cff" stroke-width="2"/><path d="M-15 -3 H15" stroke="#7c8cff" stroke-width="2.5"/><path d="M-9 5 H-3" stroke="#7c8cff" stroke-width="2" stroke-linecap="round"/></g>
+    <g transform="translate(46 48)"><g transform="translate(-13.0 -13.0) scale(1.0833)" fill="none" stroke="#7c8cff" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2" />
+  <line x1="2" x2="22" y1="10" y2="10" /></g></g>
     <text x="78" y="55" class="title">BohuPay</text>
     <text x="26" y="88" class="line">Drop-in payments for Bangladeshi gateways</text>
     <text x="26" y="110" class="where">Bohuvuj</text>

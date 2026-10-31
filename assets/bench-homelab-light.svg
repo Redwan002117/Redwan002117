@@ -19,7 +19,10 @@
     <rect width="400" height="128" fill="#ffffff"/>
     <rect width="400" height="128" fill="url(#glow)" class="shine"/>
     <rect x="0" y="0" width="4" height="128" fill="url(#edge)"/>
-    <g transform="translate(46 48) scale(.82)"><rect x="-10" y="-10" width="20" height="20" rx="3" fill="none" stroke="#2dd4bf" stroke-width="2"/><path d="M-5 -14 V-10 M0 -14 V-10 M5 -14 V-10 M-5 10 V14 M0 10 V14 M5 10 V14 M-14 -5 H-10 M-14 0 H-10 M-14 5 H-10 M10 -5 H14 M10 0 H14 M10 5 H14" stroke="#2dd4bf" stroke-width="1.6"/></g>
+    <g transform="translate(46 48)"><g transform="translate(-13.0 -13.0) scale(1.0833)" fill="none" stroke="#2dd4bf" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+  <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+  <line x1="6" x2="6.01" y1="6" y2="6" />
+  <line x1="6" x2="6.01" y1="18" y2="18" /></g></g>
     <text x="78" y="55" class="title">Homelab</text>
     <text x="26" y="88" class="line">Docker server and ESP32-C6 Wi-Fi sensing</text>
     <text x="26" y="110" class="where">at home</text>
