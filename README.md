@@ -1,74 +1,79 @@
-# Hi there, I'm [Redwan Rashid](https://rico.bd/) (aka Ricky) 👋
+<a href="https://rico.bd/">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=3"><img alt="Redwan Rashid (Ricky), founder of Bohuvuj Softwares: I build software that reaches into hardware." src="assets/hero-light.svg?v=3" width="100%"></picture>
+</a>
 
-### A passionate Software Developer, Hardware Tinkerer, and BCSE Student at IUBAT.
+<br>
 
-I love bridging the gap between hardware and software. Whether I'm designing full-stack web applications, tinkering with microcontrollers, or managing my own local home server, I enjoy building things from the ground up. 
+I like the place where software meets the physical world. Most days that means full-stack apps that real people depend on; other days it is a microcontroller on the desk, a server humming in the corner, or a logo that will not sit right yet.
 
-* 🎓 **Education:** Currently pursuing my Bachelor of Computer Science and Engineering (BCSE) at IUBAT.
-* 💻 **Web Portfolios:** Check out my works in my **[Portfolio](https://rico.bd/)** site.
-* 🖥️ **Self-Hosting & Homelab:** Passionate about local servers, deploying Docker containers, configuring CasaOS, and running local AI models. 
-* 🛠️ **Hardware Tinkering:** I enjoy custom PC building and hardware components. 
-* 🎨 **Design:** In my free time, I enjoy designing brand identities, logos, and posters.
+I founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)**, a small studio in Dhaka that builds web platforms, custom software and mobile apps for teams who mean to still be running them in five years. Most of what is below shipped under Bohuvuj. I also study Computer Science and Engineering at IUBAT, and keep a portfolio at **[rico.bd](https://rico.bd/)**.
 
----
+### Now building
 
-### 🚀 What I'm Currently Working On
-
-* **SysTracker:** Developing a robust server-side tracking application utilizing Docker.
-* **Subash:** Building a custom, fragrance-focused web application.
-* **ESP32 Line-Follower Robot:** Designing a custom robotics project featuring an ESP32 microcontroller with an integrated Wi-Fi web server for remote control.
-* **Purrfect Feeder:** Debugging and building out an automated pet feeding solution.
-* **SK IT Centre:** Handling business presentations and IT solutions for property preservation and maintenance. 
-
----
-
-## 🌐 Connect with me:
-[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/gamerno002117) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/gamerno002117.99) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/gamerno002117) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gamerno002117) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/gamerno002117) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/gamerno002117) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@gamerno002117) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/gamerno002117) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/redwanrico) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@gamerno002117) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:redwanrashidrico@gmail.com) 
-
----
-
-## 💻 Tech Stack & Tools:
-
-**Languages & Core:**
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat&logo=powershell&logoColor=white) 
-
-**Frontend & Mobile:**
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=flat&logo=svelte&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=flat&logo=vuedotjs&logoColor=%234FC08D) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=flat&logo=WordPress&logoColor=white)
-
-**Backend, Cloud & Infrastructure:**
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat&logo=netlify&logoColor=#00C7B7) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=flat&logo=heroku&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat&logo=nginx&logoColor=white)
-
-**Databases & Services:**
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat&logo=Prisma&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=flat&logo=socket.io&badgeColor=010101) 
-
-**Tools & Design:**
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat&logo=adobe%20illustrator&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=flat&logo=Adobe%20After%20Effects&logoColor=white)
-
-**IoT & Homelab:**
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=flat&logo=Raspberry-Pi) ![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=flat&logo=home-assistant&logoColor=white) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=flat&logo=eclipsemosquitto&logoColor=white) ![Jellyfin](https://img.shields.io/badge/jellyfin-%23000B25.svg?style=flat&logo=Jellyfin&logoColor=00A4DC) 
-
----
-## 📊 GitHub Stats:
-<div align="center">
-
-![GitHub Stats Card](https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=11&size=compact)
-  
-![GitHub Stats Card](https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=11&custom_title=My+Stats+%3A)
-
-![Top Languages](https://ghstats.dev/api/langs?username=Redwan002117&theme=light&layout=grid)
-
-![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=Redwan002117&theme=light&days=90&width=640&height=150)
-
-</div>
-
-### ✍️ Random Dev Quote
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+<p>
+  <a href="https://singercms.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-collectra-dark.svg?v=3"><img alt="Collectra CMS: collections and hire-purchase accounts for retail branches, with Android and iPhone apps. Live." src="assets/card-collectra-light.svg?v=3" width="49%"></picture></a>
+  <a href="https://rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-timeforge-dark.svg?v=3"><img alt="TimeForge: an open-world builder on the real map of Earth, running in the browser. Building." src="assets/card-timeforge-light.svg?v=3" width="49%"></picture></a>
+  <a href="https://systracker.rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-systracker-dark.svg?v=3"><img alt="SysTracker: self-hosted monitoring for a fleet of machines. Live." src="assets/card-systracker-light.svg?v=3" width="49%"></picture></a>
+  <a href="https://perfumevaultbd.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-perfumevault-dark.svg?v=3"><img alt="Perfume Vault: a perfume storefront with its own admin and content tools. Live." src="assets/card-perfumevault-light.svg?v=3" width="49%"></picture></a>
+  <a href="https://advance.rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-advance-dark.svg?v=3"><img alt="Advance Manager: tracks advance payments across companies, vendors and crews. Live." src="assets/card-advance-light.svg?v=3" width="49%"></picture></a>
+  <a href="https://mess.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-messmanager-dark.svg?v=3"><img alt="MessManager: meals, groceries and dues for a shared mess. Live." src="assets/card-messmanager-light.svg?v=3" width="49%"></picture></a>
 </p>
 
----
-<div align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://komarev.com/ghpvc/?username=redwan002117&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  </a>
-</div>
+### Milestones
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/milestones-dark.svg?v=3"><img alt="Milestones, by first commit: Jun 2025 Purrfect Feeder; Feb 2026 SysTracker; Apr 2026 Bohuvuj Softwares; Apr 2026 Perfume Vault; Jul 2026 BeeEzee; Sep 2026 Collectra CMS, live in October; Oct 2026 TimeForge." src="assets/milestones-light.svg?v=3" width="100%"></picture>
+
+### More from the workbench
+
+| Project | What it is | |
+|---|---|---|
+| **BeeEzee** | ERP and CRM for a growing business, built at Bohuvuj | [beeezee.bohuvuj.com](https://beeezee.bohuvuj.com/) |
+| **BohuPay** | A drop-in payment modal for Bangladeshi gateways | Bohuvuj |
+| **Subash** | A fragrance storefront | [suubas.com](https://suubas.com/) |
+| **Purrfect Feeder** | An ESP32 pet feeder you run from your phone | [purrfectfeeder.rico.bd](https://purrfectfeeder.rico.bd/) |
+| **Homelab** | A Linux server running my apps in Docker, and Wi-Fi sensing on ESP32-C6 | at home |
+| **D_A_GeoFormer** | Research code from my thesis work | [repo](https://github.com/Redwan002117/D_A_GeoFormer) |
+| **EXOPLANET** | Notebooks exploring exoplanet data | [repo](https://github.com/Redwan002117/EXOPLANET) |
+
+### Stack
+
+<table>
+<tr><td><b>Languages</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Cpy%2Cc%2Ccpp%2Cgo%2Cjava%2Cphp%2Cpowershell&theme=dark"><img alt="TypeScript, JavaScript, Python, C, C++, Go, Java, PHP, PowerShell" src="https://skillicons.dev/icons?i=ts%2Cjs%2Cpy%2Cc%2Ccpp%2Cgo%2Cjava%2Cphp%2Cpowershell&theme=light" height="44"></picture></td></tr>
+<tr><td><b>Frontend and mobile</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cnextjs%2Cvite%2Ctailwind%2Csvelte%2Cvue%2Cflutter%2Cthreejs&theme=dark"><img alt="React, Next.js, Vite, Tailwind, Svelte, Vue, Flutter, three.js" src="https://skillicons.dev/icons?i=react%2Cnextjs%2Cvite%2Ctailwind%2Csvelte%2Cvue%2Cflutter%2Cthreejs&theme=light" height="44"></picture></td></tr>
+<tr><td><b>Backend and data</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cexpress%2Cpostgres%2Csupabase%2Cprisma%2Credis%2Cmysql%2Csqlite%2Cfirebase&theme=dark"><img alt="Node.js, Express, PostgreSQL, Supabase, Prisma, Redis, MySQL, SQLite, Firebase" src="https://skillicons.dev/icons?i=nodejs%2Cexpress%2Cpostgres%2Csupabase%2Cprisma%2Credis%2Cmysql%2Csqlite%2Cfirebase&theme=light" height="44"></picture></td></tr>
+<tr><td><b>Cloud and ops</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker%2Clinux%2Cnginx%2Ccloudflare%2Cvercel%2Cnetlify%2Cgcp%2Cgithubactions%2Cgit&theme=dark"><img alt="Docker, Linux, nginx, Cloudflare, Vercel, Netlify, Google Cloud, GitHub Actions, Git" src="https://skillicons.dev/icons?i=docker%2Clinux%2Cnginx%2Ccloudflare%2Cvercel%2Cnetlify%2Cgcp%2Cgithubactions%2Cgit&theme=light" height="44"></picture></td></tr>
+<tr><td><b>Hardware and design</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=arduino%2Craspberrypi%2Cfigma%2Cai%2Cae&theme=dark"><img alt="Arduino and ESP32, Raspberry Pi, Figma, Illustrator, After Effects" src="https://skillicons.dev/icons?i=arduino%2Craspberrypi%2Cfigma%2Cai%2Cae&theme=light" height="44"></picture></td></tr>
+</table>
+
+### In numbers
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/card?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&size=compact"><img alt="GitHub stats" src="https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=16&size=compact" height="176"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/langs?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&layout=compact"><img alt="Most used languages" src="https://ghstats.dev/api/langs?username=Redwan002117&theme=light&border_radius=16&layout=compact" height="176"></picture>
+</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=dark&hide_border=true&days=90&width=880&height=140"><img alt="Contributions over the last 90 days" src="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=light&days=90&width=880&height=140" width="100%"></picture>
+</p>
+
+### Find me
+
+<p>
+  <a href="https://rico.bd/"><img alt="Portfolio" src="https://cdn.simpleicons.org/googlechrome/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/gamerno002117"><img alt="LinkedIn" src="assets/linkedin.svg" height="22"></a>&nbsp;&nbsp;
+  <a href="https://behance.net/gamerno002117"><img alt="Behance" src="https://cdn.simpleicons.org/behance/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://x.com/redwanrico"><img alt="X" src="https://cdn.simpleicons.org/x/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://instagram.com/gamerno002117"><img alt="Instagram" src="https://cdn.simpleicons.org/instagram/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://facebook.com/gamerno002117.99"><img alt="Facebook" src="https://cdn.simpleicons.org/facebook/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://youtube.com/@gamerno002117"><img alt="YouTube" src="https://cdn.simpleicons.org/youtube/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://twitch.tv/gamerno002117"><img alt="Twitch" src="https://cdn.simpleicons.org/twitch/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://tiktok.com/@gamerno002117"><img alt="TikTok" src="https://cdn.simpleicons.org/tiktok/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://reddit.com/user/gamerno002117"><img alt="Reddit" src="https://cdn.simpleicons.org/reddit/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://pinterest.com/gamerno002117"><img alt="Pinterest" src="https://cdn.simpleicons.org/pinterest/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="mailto:redwanrashidrico@gmail.com"><img alt="Email" src="https://cdn.simpleicons.org/gmail/8b9bb4" height="22"></a>
+</p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg?v=3"><img alt="" src="assets/footer-light.svg?v=3" width="100%"></picture>
+
+<p align="center"><img alt="Profile views" src="https://komarev.com/ghpvc/?username=redwan002117&label=visits&color=7c8cff&style=flat-square"></p>
+
+<!-- Generated by tools/build_readme.py; artwork by tools/build_assets.py. -->

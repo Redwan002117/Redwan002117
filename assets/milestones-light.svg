@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Milestones: Jun 2025 Purrfect Feeder; Feb 2026 SysTracker; Apr 2026 Bohuvuj Softwares; Apr 2026 Perfume Vault; Jul 2026 BeeEzee; Sep 2026 Collectra CMS; Oct 2026 TimeForge">
+  <title>Milestones</title>
+  <defs>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="90" y1="0" x2="1110" y2="0">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity=".2"/><stop offset=".6" stop-color="#818cf8"/><stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .when { font: 600 14px 'Cascadia Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; fill: #7a869e; letter-spacing: .3px; }
+    .what { font: 700 17px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #0f1a33; }
+    .note { font: 400 14px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #43506b; }
+    .run { stroke-dasharray: 6 1000; animation: run 6s linear infinite; }
+    @keyframes run { from{stroke-dashoffset:0} to{stroke-dashoffset:-1030} }
+    .ping { transform-box: fill-box; transform-origin: center; animation: ping 2.4s ease-out infinite; }
+    @keyframes ping { 0%{transform:scale(1);opacity:.6} 80%,100%{transform:scale(2.4);opacity:0} }
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <path d="M90 92 H1110" stroke="url(#line)" stroke-width="2.5" fill="none"/>
+  <path d="M90 92 H1110" stroke="#0f1a33" stroke-width="3" fill="none" stroke-linecap="round" class="run" opacity=".8"/>
+  <g>
+      
+      <circle cx="90" cy="92" r="5.5" fill="#ffffff" stroke="#7dd3fc" stroke-width="2.5"/>
+      <text x="90" y="66" class="when" text-anchor="middle">Jun 2025</text>
+      <text x="90" y="132" class="what" text-anchor="middle">Purrfect Feeder</text>
+      <text x="90" y="154" class="note" text-anchor="middle">first IoT build</text>
+    </g><g>
+      
+      <circle cx="260" cy="92" r="5.5" fill="#ffffff" stroke="#818cf8" stroke-width="2.5"/>
+      <text x="260" y="66" class="when" text-anchor="middle">Feb 2026</text>
+      <text x="260" y="132" class="what" text-anchor="middle">SysTracker</text>
+      <text x="260" y="154" class="note" text-anchor="middle">fleet monitoring</text>
+    </g><g>
+      
+      <circle cx="430" cy="92" r="5.5" fill="#ffffff" stroke="#c4b5fd" stroke-width="2.5"/>
+      <text x="430" y="66" class="when" text-anchor="middle">Apr 2026</text>
+      <text x="430" y="132" class="what" text-anchor="middle">Bohuvuj Softwares</text>
+      <text x="430" y="154" class="note" text-anchor="middle">bohuvuj.com goes up</text>
+    </g><g>
+      
+      <circle cx="600" cy="92" r="5.5" fill="#ffffff" stroke="#7dd3fc" stroke-width="2.5"/>
+      <text x="600" y="66" class="when" text-anchor="middle">Apr 2026</text>
+      <text x="600" y="132" class="what" text-anchor="middle">Perfume Vault</text>
+      <text x="600" y="154" class="note" text-anchor="middle">storefront and admin</text>
+    </g><g>
+      
+      <circle cx="770" cy="92" r="5.5" fill="#ffffff" stroke="#818cf8" stroke-width="2.5"/>
+      <text x="770" y="66" class="when" text-anchor="middle">Jul 2026</text>
+      <text x="770" y="132" class="what" text-anchor="middle">BeeEzee</text>
+      <text x="770" y="154" class="note" text-anchor="middle">ERP and CRM</text>
+    </g><g>
+      
+      <circle cx="940" cy="92" r="5.5" fill="#ffffff" stroke="#c4b5fd" stroke-width="2.5"/>
+      <text x="940" y="66" class="when" text-anchor="middle">Sep 2026</text>
+      <text x="940" y="132" class="what" text-anchor="middle">Collectra CMS</text>
+      <text x="940" y="154" class="note" text-anchor="middle">live in October</text>
+    </g><g>
+      <circle cx="1110" cy="92" r="9" fill="#2dd4bf" class="ping"/>
+      <circle cx="1110" cy="92" r="7" fill="#ffffff" stroke="#2dd4bf" stroke-width="2.5"/>
+      <text x="1110" y="66" class="when" text-anchor="middle">Oct 2026</text>
+      <text x="1110" y="132" class="what" text-anchor="middle">TimeForge</text>
+      <text x="1110" y="154" class="note" text-anchor="middle">the open world</text>
+    </g>
+</svg>
