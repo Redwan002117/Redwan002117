@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 # Bump when the artwork changes: GitHub caches images by URL.
-V = 3
+V = 4
 
 
 def pic(name, alt, width="49%"):
@@ -44,13 +44,12 @@ CARDS = [
 ]
 
 MORE = [
-    ("BeeEzee", "ERP and CRM for a growing business, built at Bohuvuj", "[beeezee.bohuvuj.com](https://beeezee.bohuvuj.com/)"),
-    ("BohuPay", "A drop-in payment modal for Bangladeshi gateways", "Bohuvuj"),
-    ("Subash", "A fragrance storefront", "[suubas.com](https://suubas.com/)"),
-    ("Purrfect Feeder", "An ESP32 pet feeder you run from your phone", "[purrfectfeeder.rico.bd](https://purrfectfeeder.rico.bd/)"),
-    ("Homelab", "A Linux server running my apps in Docker, and Wi-Fi sensing on ESP32-C6", "at home"),
-    ("D_A_GeoFormer", "Research code from my thesis work", "[repo](https://github.com/Redwan002117/D_A_GeoFormer)"),
-    ("EXOPLANET", "Notebooks exploring exoplanet data", "[repo](https://github.com/Redwan002117/EXOPLANET)"),
+    ("beeezee", "https://beeezee.bohuvuj.com/", "BeeEzee: ERP and CRM for a growing business"),
+    ("bohupay", "https://github.com/Bohuvuj", "BohuPay: drop-in payments for Bangladeshi gateways"),
+    ("subash", "https://suubas.com/", "Subash: a fragrance storefront"),
+    ("feeder", "https://purrfectfeeder.rico.bd/", "Purrfect Feeder: an ESP32 pet feeder run from a phone"),
+    ("homelab", "https://rico.bd/", "Homelab: Docker server and ESP32-C6 Wi-Fi sensing"),
+    ("research", "https://github.com/Redwan002117/D_A_GeoFormer", "Research: GeoFormer thesis code and exoplanet notebooks"),
 ]
 
 STACK = [
@@ -79,7 +78,7 @@ SOCIALS = [
 
 def main():
     cards = "\n".join(f'  <a href="{url}">{pic("card-" + cid, alt)}</a>' for cid, url, alt in CARDS)
-    more = "\n".join(f"| **{n}** | {what} | {where} |" for n, what, where in MORE)
+    more = "\n".join(f'  <a href="{url}">{pic("bench-" + mid, alt, "32%")}</a>' for mid, url, alt in MORE)
     stack = "\n".join(f"<tr><td><b>{label}</b></td><td>{icons(ids, alt)}</td></tr>" for label, ids, alt in STACK)
     socials = "&nbsp;&nbsp;\n".join(f'  <a href="{url}"><img alt="{n}" src="{src}" height="22"></a>' for n, url, src in SOCIALS)
     hero_alt = "Redwan Rashid (Ricky), founder of Bohuvuj Softwares: I build software that reaches into hardware."
@@ -107,9 +106,9 @@ I founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)**, a small studio in
 
 ### More from the workbench
 
-| Project | What it is | |
-|---|---|---|
+<p>
 {more}
+</p>
 
 ### Stack
 

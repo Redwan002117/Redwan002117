@@ -209,6 +209,12 @@ def glyph(kind, c):
         return f'<rect x="-12" y="-15" width="24" height="30" rx="3" fill="none" stroke="{c}" stroke-width="2"/><path d="M-6 -6 H6 M-6 0 H6 M-6 6 H2" stroke="{c}" stroke-width="1.8" stroke-linecap="round"/>'
     if kind == "bowl":
         return f'<path d="M-15 -1 H15 C15 10 7 15 0 15 C-7 15 -15 10 -15 -1 Z" fill="none" stroke="{c}" stroke-width="2"/><path d="M-5 -6 C-7 -9 -3 -11 -5 -14 M3 -6 C1 -9 5 -11 3 -14" fill="none" stroke="{c}" stroke-width="1.6" stroke-linecap="round"/>'
+    if kind == "card":
+        return f'<rect x="-15" y="-10" width="30" height="20" rx="3.5" fill="none" stroke="{c}" stroke-width="2"/><path d="M-15 -3 H15" stroke="{c}" stroke-width="2.5"/><path d="M-9 5 H-3" stroke="{c}" stroke-width="2" stroke-linecap="round"/>'
+    if kind == "paw":
+        return f'<ellipse cx="0" cy="6" rx="7" ry="6" fill="none" stroke="{c}" stroke-width="2"/><circle cx="-9" cy="-3" r="3" fill="none" stroke="{c}" stroke-width="1.8"/><circle cx="-3" cy="-10" r="3" fill="none" stroke="{c}" stroke-width="1.8"/><circle cx="4" cy="-10" r="3" fill="none" stroke="{c}" stroke-width="1.8"/><circle cx="10" cy="-3" r="3" fill="none" stroke="{c}" stroke-width="1.8"/>'
+    if kind == "orbit":
+        return f'<circle r="5" fill="{c}"/><ellipse rx="16" ry="7" fill="none" stroke="{c}" stroke-width="1.8" transform="rotate(-25)"/><circle cx="13" cy="-8" r="2.5" fill="{c}"/>'
     return f'<rect x="-10" y="-10" width="20" height="20" rx="3" fill="none" stroke="{c}" stroke-width="2"/><path d="M-5 -14 V-10 M0 -14 V-10 M5 -14 V-10 M-5 10 V14 M0 10 V14 M5 10 V14 M-14 -5 H-10 M-14 0 H-10 M-14 5 H-10 M10 -5 H14 M10 0 H14 M10 5 H14" stroke="{c}" stroke-width="1.6"/>'
 
 
@@ -336,12 +342,59 @@ def timeline(t):
 '''
 
 
+# Smaller tiles for "More from the workbench".
+WORKBENCH = [
+    {"id": "beeezee", "title": "BeeEzee", "line": "ERP and CRM for a growing business", "where": "beeezee.bohuvuj.com", "accent": "a1", "glyph": "ledger"},
+    {"id": "bohupay", "title": "BohuPay", "line": "Drop-in payments for Bangladeshi gateways", "where": "Bohuvuj", "accent": "a2", "glyph": "card"},
+    {"id": "subash", "title": "Subash", "line": "A fragrance storefront", "where": "suubas.com", "accent": "a3", "glyph": "bottle"},
+    {"id": "feeder", "title": "Purrfect Feeder", "line": "An ESP32 pet feeder run from a phone", "where": "purrfectfeeder.rico.bd", "accent": "a4", "glyph": "paw"},
+    {"id": "homelab", "title": "Homelab", "line": "Docker server and ESP32-C6 Wi-Fi sensing", "where": "at home", "accent": "a1", "glyph": "chip"},
+    {"id": "research", "title": "Research", "line": "GeoFormer thesis code, exoplanet notebooks", "where": "public repos", "accent": "a2", "glyph": "orbit"},
+]
+
+
+def mini(t, m):
+    w, h = 400, 128
+    c = t[m["accent"]]
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{escape(m['title'])}: {escape(m['line'])}">
+  <title>{escape(m['title'])}</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="{c}"/><stop offset="1" stop-color="{c}" stop-opacity=".15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1"><stop offset="0" stop-color="{c}" stop-opacity=".16"/><stop offset="1" stop-color="{c}" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="{w}" height="{h}" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .title {{ font: 700 19px {FONT}; fill: {t['ink']}; letter-spacing: -.2px; }}
+    .line {{ font: 400 14px {FONT}; fill: {t['ink2']}; }}
+    .where {{ font: 500 12px {MONO}; fill: {t['text'][m['accent']]}; }}
+    .shine {{ animation: shine 9s ease-in-out infinite; }}
+    @keyframes shine {{ 0%,100%{{opacity:.6}} 50%{{opacity:1}} }}
+    {REDUCED}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="{w}" height="{h}" fill="{t['card']}"/>
+    <rect width="{w}" height="{h}" fill="url(#glow)" class="shine"/>
+    <rect x="0" y="0" width="4" height="{h}" fill="url(#edge)"/>
+    <g transform="translate(46 48) scale(.82)">{glyph(m['glyph'], c)}</g>
+    <text x="78" y="55" class="title">{escape(m['title'])}</text>
+    <text x="26" y="88" class="line">{escape(m['line'])}</text>
+    <text x="26" y="110" class="where">{escape(m['where'])}</text>
+    <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="16" fill="none" stroke="{t['card_line']}"/>
+  </g>
+</svg>
+'''
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     for mode, t in THEMES.items():
         (OUT / f"hero-{mode}.svg").write_text(hero(t, "Redwan Rashid"), encoding="utf-8")
         (OUT / f"footer-{mode}.svg").write_text(footer(t), encoding="utf-8")
         (OUT / f"milestones-{mode}.svg").write_text(timeline(t), encoding="utf-8")
+        for m in WORKBENCH:
+            (OUT / f"bench-{m['id']}-{mode}.svg").write_text(mini(t, m), encoding="utf-8")
         for p in PROJECTS:
             (OUT / f"card-{p['id']}-{mode}.svg").write_text(card(t, p), encoding="utf-8")
     print("wrote", len(list(OUT.glob("*.svg"))), "files to", OUT)

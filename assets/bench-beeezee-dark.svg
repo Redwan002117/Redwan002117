@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="128" viewBox="0 0 400 128" role="img" aria-label="BeeEzee: ERP and CRM for a growing business">
+  <title>BeeEzee</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3ee6c1"/><stop offset="1" stop-color="#3ee6c1" stop-opacity=".15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1"><stop offset="0" stop-color="#3ee6c1" stop-opacity=".16"/><stop offset="1" stop-color="#3ee6c1" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="400" height="128" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .title { font: 700 19px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #eef4ff; letter-spacing: -.2px; }
+    .line { font: 400 14px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #a9b8d6; }
+    .where { font: 500 12px 'Cascadia Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; fill: #3ee6c1; }
+    .shine { animation: shine 9s ease-in-out infinite; }
+    @keyframes shine { 0%,100%{opacity:.6} 50%{opacity:1} }
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="400" height="128" fill="#0d1628"/>
+    <rect width="400" height="128" fill="url(#glow)" class="shine"/>
+    <rect x="0" y="0" width="4" height="128" fill="url(#edge)"/>
+    <g transform="translate(46 48) scale(.82)"><rect x="-12" y="-15" width="24" height="30" rx="3" fill="none" stroke="#3ee6c1" stroke-width="2"/><path d="M-6 -6 H6 M-6 0 H6 M-6 6 H2" stroke="#3ee6c1" stroke-width="1.8" stroke-linecap="round"/></g>
+    <text x="78" y="55" class="title">BeeEzee</text>
+    <text x="26" y="88" class="line">ERP and CRM for a growing business</text>
+    <text x="26" y="110" class="where">beeezee.bohuvuj.com</text>
+    <rect x=".5" y=".5" width="399" height="127" rx="16" fill="none" stroke="#1f2c47"/>
+  </g>
+</svg>
