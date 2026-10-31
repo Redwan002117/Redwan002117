@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Redwan Rashid (Ricky): software developer and hardware tinkerer">
+  <title>Redwan Rashid (Ricky)</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f9ff"/>
+      <stop offset="1" stop-color="#eaf2fb"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="48"/></filter>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f1a33"/>
+      <stop offset="0.55" stop-color="#0f1a33"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#2dd4bf"/>
+      <stop offset="0.65" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="360" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .name { font: 700 64px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; letter-spacing: -1.6px; fill: url(#nameGrad); }
+    .aka { font: 500 22px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #7a869e; }
+    .role { font: 500 24px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #43506b; opacity: 0; animation: role 12s infinite; }
+    .r1 { animation-delay: 4s; } .r2 { animation-delay: 8s; }
+    @keyframes role { 0%{opacity:0;transform:translateY(8px)} 4%,30%{opacity:1;transform:none} 34%,100%{opacity:0;transform:translateY(-6px)} }
+    .loc { font: 500 15px 'Cascadia Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; fill: #7a869e; letter-spacing: .4px; }
+    .star { fill: #0f1a33; animation: tw 4s ease-in-out infinite; }
+    @keyframes tw { 0%,100%{opacity:.15} 50%{opacity:.9} }
+    .curtain { animation: sway 16s ease-in-out infinite alternate; transform-origin: 50% 0; }
+    @keyframes sway { from{transform:skewX(-6deg) translateX(-30px)} to{transform:skewX(6deg) translateX(30px)} }
+    .dash { stroke-dasharray: 14 10; animation: flow 3s linear infinite; }
+    @keyframes flow { to{stroke-dashoffset:-48} }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50%{opacity:0} }
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#sky)"/>
+    
+    <g filter="url(#blur)" opacity="0.42">
+      <ellipse cx="820" cy="80" rx="260" ry="90" fill="#2dd4bf">
+        <animate attributeName="cx" values="820;930;780;820" dur="22s" repeatCount="indefinite"/>
+        <animate attributeName="ry" values="90;130;80;90" dur="17s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="1040" cy="200" rx="220" ry="110" fill="#818cf8">
+        <animate attributeName="cx" values="1040;960;1100;1040" dur="19s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="200;150;230;200" dur="23s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="640" cy="300" rx="240" ry="80" fill="#c4b5fd">
+        <animate attributeName="cx" values="640;720;600;640" dur="26s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="300" cy="-20" rx="300" ry="70" fill="#7dd3fc">
+        <animate attributeName="cx" values="300;380;260;300" dur="21s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <g class="curtain" opacity="0.5">
+      <path d="M700 0 C760 90 860 110 900 220 C930 300 1000 330 1200 340" fill="none" stroke="url(#ribbon)" stroke-width="2"/>
+      <path d="M760 0 C820 70 940 120 980 200 C1010 260 1080 300 1200 300" fill="none" stroke="url(#ribbon)" stroke-width="1.2" opacity=".7"/>
+      <path d="M640 0 C700 120 780 150 830 260 C860 320 930 350 1100 360" fill="none" stroke="url(#ribbon)" stroke-width="1" opacity=".5"/>
+    </g>
+    <!-- a tiny circuit trace: hardware meets software -->
+    <g fill="none" stroke="#2dd4bf" stroke-width="1.6" opacity=".55">
+      <path class="dash" d="M80 300 H330 L350 280 H520"/>
+      <circle cx="80" cy="300" r="4" fill="#2dd4bf" stroke="none"/>
+      <circle cx="520" cy="280" r="4" fill="none"/>
+    </g>
+    <text x="80" y="120" class="aka">Hi, I&#8217;m</text>
+    <text x="80" y="190" class="name">Redwan Rashid</text>
+    <text x="80" y="246" class="role r0">I build software that reaches into hardware.</text>
+    <text x="80" y="246" class="role r1">Full-stack apps, shipped and kept running.</text><text x="80" y="246" class="role r2">Homelab, ESP32 and a lot of Docker.</text>
+    <text x="80" y="330" class="loc">Dhaka, Bangladesh <tspan fill="#2dd4bf">/</tspan> BCSE at IUBAT <tspan fill="#2dd4bf">/</tspan> aka Ricky<tspan class="cursor" fill="#2dd4bf"> _</tspan></text>
+    <rect x="0.5" y="0.5" width="1199" height="359" rx="22" fill="none" stroke="#dde6f3"/>
+  </g>
+</svg>

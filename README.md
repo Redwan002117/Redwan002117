@@ -1,74 +1,75 @@
-# Hi there, I'm [Redwan Rashid](https://rico.bd/) (aka Ricky) 👋
+<a href="https://rico.bd/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <img alt="Redwan Rashid (Ricky): I build software that reaches into hardware." src="assets/hero-light.svg" width="100%">
+  </picture>
+</a>
 
-### A passionate Software Developer, Hardware Tinkerer, and BCSE Student at IUBAT.
+<br>
 
-I love bridging the gap between hardware and software. Whether I'm designing full-stack web applications, tinkering with microcontrollers, or managing my own local home server, I enjoy building things from the ground up. 
+I like the place where software meets the physical world. Most days that means full-stack apps that real people depend on; on the other days it is a microcontroller on the desk, a server humming in the corner, or a logo that will not sit right yet. I study Computer Science and Engineering at IUBAT and keep my work at **[rico.bd](https://rico.bd/)**.
 
-* 🎓 **Education:** Currently pursuing my Bachelor of Computer Science and Engineering (BCSE) at IUBAT.
-* 💻 **Web Portfolios:** Check out my works in my **[Portfolio](https://rico.bd/)** site.
-* 🖥️ **Self-Hosting & Homelab:** Passionate about local servers, deploying Docker containers, configuring CasaOS, and running local AI models. 
-* 🛠️ **Hardware Tinkering:** I enjoy custom PC building and hardware components. 
-* 🎨 **Design:** In my free time, I enjoy designing brand identities, logos, and posters.
+### Now building
 
----
-
-### 🚀 What I'm Currently Working On
-
-* **SysTracker:** Developing a robust server-side tracking application utilizing Docker.
-* **Subash:** Building a custom, fragrance-focused web application.
-* **ESP32 Line-Follower Robot:** Designing a custom robotics project featuring an ESP32 microcontroller with an integrated Wi-Fi web server for remote control.
-* **Purrfect Feeder:** Debugging and building out an automated pet feeding solution.
-* **SK IT Centre:** Handling business presentations and IT solutions for property preservation and maintenance. 
-
----
-
-## 🌐 Connect with me:
-[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/gamerno002117) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/gamerno002117.99) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/gamerno002117) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gamerno002117) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/gamerno002117) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/gamerno002117) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@gamerno002117) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/gamerno002117) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/redwanrico) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@gamerno002117) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:redwanrashidrico@gmail.com) 
-
----
-
-## 💻 Tech Stack & Tools:
-
-**Languages & Core:**
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat&logo=powershell&logoColor=white) 
-
-**Frontend & Mobile:**
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=flat&logo=svelte&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=flat&logo=vuedotjs&logoColor=%234FC08D) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=flat&logo=WordPress&logoColor=white)
-
-**Backend, Cloud & Infrastructure:**
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat&logo=netlify&logoColor=#00C7B7) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=flat&logo=heroku&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat&logo=nginx&logoColor=white)
-
-**Databases & Services:**
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat&logo=Prisma&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=flat&logo=socket.io&badgeColor=010101) 
-
-**Tools & Design:**
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat&logo=adobe%20illustrator&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=flat&logo=Adobe%20After%20Effects&logoColor=white)
-
-**IoT & Homelab:**
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=flat&logo=Raspberry-Pi) ![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=flat&logo=home-assistant&logoColor=white) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=flat&logo=eclipsemosquitto&logoColor=white) ![Jellyfin](https://img.shields.io/badge/jellyfin-%23000B25.svg?style=flat&logo=Jellyfin&logoColor=00A4DC) 
-
----
-## 📊 GitHub Stats:
-<div align="center">
-
-![GitHub Stats Card](https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=11&size=compact)
-  
-![GitHub Stats Card](https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=11&custom_title=My+Stats+%3A)
-
-![Top Languages](https://ghstats.dev/api/langs?username=Redwan002117&theme=light&layout=grid)
-
-![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=Redwan002117&theme=light&days=90&width=640&height=150)
-
-</div>
-
-### ✍️ Random Dev Quote
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+<p>
+  <a href="https://singercms.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-collectra-dark.svg"><img alt="Collectra CMS: field collection and hire-purchase accounts for retail branches across Bangladesh. Live." src="assets/card-collectra-light.svg" width="49%"></picture></a>
+  <a href="https://rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-timeforge-dark.svg"><img alt="TimeForge: an open-world builder on the real map of Earth, running in the browser. Building." src="assets/card-timeforge-light.svg" width="49%"></picture></a>
+  <a href="https://rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-systracker-dark.svg"><img alt="SysTracker: self-hosted monitoring for a fleet of machines. Active." src="assets/card-systracker-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/Redwan002117/RuView"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-homelab-dark.svg"><img alt="Homelab: my own Linux server for apps in Docker, plus Wi-Fi sensing with ESP32-C6 nodes. Running." src="assets/card-homelab-light.svg" width="49%"></picture></a>
 </p>
 
----
-<div align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://komarev.com/ghpvc/?username=redwan002117&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  </a>
-</div>
+Also on the bench: an **ESP32 line-follower** you drive over its own Wi-Fi page, **Purrfect Feeder** for a cat with opinions, **Subash**, a fragrance storefront, and IT work for **SK IT Centre**.
+
+### Toolbox
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,py,c,cpp,go,java,php,powershell,react,nextjs,svelte,vue,tailwind,flutter,threejs,nodejs,postgres,supabase,prisma,redis,mysql,sqlite,firebase,docker,linux,nginx,cloudflare,vercel,netlify,gcp,githubactions,git,raspberrypi,arduino,figma,ai,ae&perline=13&theme=dark">
+    <img alt="TypeScript, JavaScript, Python, C, C++, Go, Java, PHP, PowerShell, React, Next.js, Svelte, Vue, Tailwind, Flutter, three.js, Node.js, PostgreSQL, Supabase, Prisma, Redis, MySQL, SQLite, Firebase, Docker, Linux, nginx, Cloudflare, Vercel, Netlify, Google Cloud, GitHub Actions, Git, Raspberry Pi, Arduino, Figma, Illustrator, After Effects" src="https://skillicons.dev/icons?i=ts,js,py,c,cpp,go,java,php,powershell,react,nextjs,svelte,vue,tailwind,flutter,threejs,nodejs,postgres,supabase,prisma,redis,mysql,sqlite,firebase,docker,linux,nginx,cloudflare,vercel,netlify,gcp,githubactions,git,raspberrypi,arduino,figma,ai,ae&perline=13&theme=light">
+  </picture>
+</p>
+
+### In numbers
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/card?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&size=compact">
+    <img alt="GitHub stats" src="https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=16&size=compact" height="176">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/langs?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&layout=compact">
+    <img alt="Most used languages" src="https://ghstats.dev/api/langs?username=Redwan002117&theme=light&border_radius=16&layout=compact" height="176">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=dark&hide_border=true&days=90&width=880&height=140">
+    <img alt="Contributions over the last 90 days" src="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=light&days=90&width=880&height=140" width="100%">
+  </picture>
+</p>
+
+### Find me
+
+<p>
+  <a href="https://rico.bd/"><img alt="Portfolio" src="https://cdn.simpleicons.org/googlechrome/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/gamerno002117"><img alt="LinkedIn" src="assets/linkedin.svg" height="22"></a>&nbsp;&nbsp;
+  <a href="https://behance.net/gamerno002117"><img alt="Behance" src="https://cdn.simpleicons.org/behance/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://x.com/redwanrico"><img alt="X" src="https://cdn.simpleicons.org/x/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://instagram.com/gamerno002117"><img alt="Instagram" src="https://cdn.simpleicons.org/instagram/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://facebook.com/gamerno002117.99"><img alt="Facebook" src="https://cdn.simpleicons.org/facebook/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://youtube.com/@gamerno002117"><img alt="YouTube" src="https://cdn.simpleicons.org/youtube/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://twitch.tv/gamerno002117"><img alt="Twitch" src="https://cdn.simpleicons.org/twitch/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://tiktok.com/@gamerno002117"><img alt="TikTok" src="https://cdn.simpleicons.org/tiktok/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://reddit.com/user/gamerno002117"><img alt="Reddit" src="https://cdn.simpleicons.org/reddit/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="https://pinterest.com/gamerno002117"><img alt="Pinterest" src="https://cdn.simpleicons.org/pinterest/8b9bb4" height="22"></a>&nbsp;&nbsp;
+  <a href="mailto:redwanrashidrico@gmail.com"><img alt="Email" src="https://cdn.simpleicons.org/gmail/8b9bb4" height="22"></a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img alt="" src="assets/footer-light.svg" width="100%">
+</picture>
+
+<p align="center"><img alt="Profile views" src="https://komarev.com/ghpvc/?username=redwan002117&label=visits&color=7c8cff&style=flat-square"></p>
+
+<!-- Artwork: tools/build_assets.py draws assets/*.svg (light and dark). -->
