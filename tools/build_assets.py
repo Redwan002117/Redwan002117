@@ -155,7 +155,7 @@ def hero(t, name):
     <text x="80" y="190" class="name">{escape(name)}</text>
     <text x="80" y="246" class="role r0">{escape(roles[0])}</text>
     {role_spans[role_spans.index('</text>') + 7:]}
-    <text x="80" y="330" class="loc">Founder, Bohuvuj Softwares <tspan fill="{t['a1']}">/</tspan> BCSE at IUBAT <tspan fill="{t['a1']}">/</tspan> Dhaka<tspan class="cursor" fill="{t['a1']}"> _</tspan></text>
+    <text x="80" y="330" class="loc">Co-founder and Chief Architect, Bohuvuj <tspan fill="{t['a1']}">/</tspan> BCSE at IUBAT <tspan fill="{t['a1']}">/</tspan> Dhaka<tspan class="cursor" fill="{t['a1']}"> _</tspan></text>
     <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="22" fill="none" stroke="{t['card_line']}"/>
   </g>
 </svg>

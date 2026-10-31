@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 # Bump when the artwork changes: GitHub caches images by URL.
-V = 4
+V = 5
 
 
 def pic(name, alt, width="49%"):
@@ -81,7 +81,7 @@ def main():
     more = "\n".join(f'  <a href="{url}">{pic("bench-" + mid, alt, "32%")}</a>' for mid, url, alt in MORE)
     stack = "\n".join(f"<tr><td><b>{label}</b></td><td>{icons(ids, alt)}</td></tr>" for label, ids, alt in STACK)
     socials = "&nbsp;&nbsp;\n".join(f'  <a href="{url}"><img alt="{n}" src="{src}" height="22"></a>' for n, url, src in SOCIALS)
-    hero_alt = "Redwan Rashid (Ricky), founder of Bohuvuj Softwares: I build software that reaches into hardware."
+    hero_alt = "Redwan Rashid (Ricky), co-founder and Chief Architect of Bohuvuj Softwares: I build software that reaches into hardware."
     milestones_alt = ("Milestones, by first commit: Jun 2025 Purrfect Feeder; Feb 2026 SysTracker; Apr 2026 Bohuvuj Softwares; "
                       "Apr 2026 Perfume Vault; Jul 2026 BeeEzee; Sep 2026 Collectra CMS, live in October; Oct 2026 TimeForge.")
     readme = f"""<a href="https://rico.bd/">
@@ -92,7 +92,7 @@ def main():
 
 I like the place where software meets the physical world. Most days that means full-stack apps that real people depend on; other days it is a microcontroller on the desk, a server humming in the corner, or a logo that will not sit right yet.
 
-I founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)**, a small studio in Dhaka that builds web platforms, custom software and mobile apps for teams who mean to still be running them in five years. Most of what is below shipped under Bohuvuj. I also study Computer Science and Engineering at IUBAT, and keep a portfolio at **[rico.bd](https://rico.bd/)**.
+I co-founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)** and lead its architecture as Chief Architect. Bohuvuj is a small studio in Dhaka that builds web platforms, custom software and mobile apps for teams who mean to still be running them in five years. Most of what is below shipped under Bohuvuj. I also study Computer Science and Engineering at IUBAT, and keep a portfolio at **[rico.bd](https://rico.bd/)**.
 
 ### Now building
 
