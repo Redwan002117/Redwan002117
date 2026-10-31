@@ -23,9 +23,9 @@
     <rect width="580" height="200" fill="url(#glow)" class="glow"/>
     <g transform="translate(524 52)" opacity=".9"><path d="M-16 2 H-8 L-4 -10 L2 12 L6 -2 H16" fill="none" stroke="#7dd3fc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
     <text x="32" y="62" class="title">SysTracker</text>
-    <text x="548" y="169" class="status" text-anchor="end">Active</text>
-    
-    <circle cx="494" cy="164" r="4.5" fill="#7dd3fc"/>
+    <text x="548" y="169" class="status" text-anchor="end">Live</text>
+    <circle cx="508" cy="164" r="4.5" fill="#7dd3fc" class="dot"/>
+    <circle cx="508" cy="164" r="4.5" fill="#7dd3fc"/>
     <text x="32" y="104" class="body">Self-hosted monitoring for a fleet of</text><text x="32" y="128" class="body">machines: CPU, memory, disk, network.</text>
     <rect x="32" y="150" width="65" height="28" rx="14" fill="#eef3fb"/><text x="65" y="169" class="tag" text-anchor="middle">Docker</text><rect x="105.19999999999999" y="150" width="49" height="28" rx="14" fill="#eef3fb"/><text x="130" y="169" class="tag" text-anchor="middle">Node</text><rect x="162.0" y="150" width="65" height="28" rx="14" fill="#eef3fb"/><text x="195" y="169" class="tag" text-anchor="middle">Agents</text>
     <rect x=".5" y=".5" width="579" height="199" rx="18" fill="none" stroke="#dde6f3"/>

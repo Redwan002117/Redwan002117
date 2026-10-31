@@ -55,6 +55,9 @@ def stars(w, h, n, seed=7):
     return "\n    ".join(out)
 
 
+AVATAR = (Path(__file__).resolve().parent / "src" / "avatar.b64").read_text().strip()
+
+
 def hero(t, name):
     w, h = 1200, 360
     roles = [
@@ -86,6 +89,10 @@ def hero(t, name):
       <stop offset="1" stop-color="{t['a3']}" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="frame"><rect width="{w}" height="{h}" rx="22"/></clipPath>
+    <clipPath id="face"><circle cx="985" cy="180" r="112"/></clipPath>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="{t['a1']}"/><stop offset=".5" stop-color="{t['a2']}"/><stop offset="1" stop-color="{t['a3']}"/>
+    </linearGradient>
   </defs>
   <style>
     .name {{ font: 700 64px {FONT}; letter-spacing: -1.6px; fill: url(#nameGrad); }}
@@ -101,6 +108,10 @@ def hero(t, name):
     .dash {{ stroke-dasharray: 14 10; animation: flow 3s linear infinite; }}
     @keyframes flow {{ to{{stroke-dashoffset:-48}} }}
     .cursor {{ animation: blink 1.1s steps(1) infinite; }}
+    .ring {{ transform-origin: 985px 180px; animation: spin 18s linear infinite; }}
+    @keyframes spin {{ to{{transform:rotate(360deg)}} }}
+    .halo {{ transform-origin: 985px 180px; animation: halo 6s ease-in-out infinite; }}
+    @keyframes halo {{ 0%,100%{{transform:scale(1);opacity:.55}} 50%{{transform:scale(1.06);opacity:.9}} }}
     @keyframes blink {{ 50%{{opacity:0}} }}
     {REDUCED}
   </style>
@@ -134,11 +145,17 @@ def hero(t, name):
       <circle cx="80" cy="300" r="4" fill="{t['a1']}" stroke="none"/>
       <circle cx="520" cy="280" r="4" fill="none"/>
     </g>
+    <!-- portrait -->
+    <circle cx="985" cy="180" r="132" fill="url(#ring)" opacity=".25" filter="url(#blur)" class="halo"/>
+    <circle cx="985" cy="180" r="124" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="120 40 30 40" class="ring"/>
+    <circle cx="985" cy="180" r="116" fill="{t['sky_bottom']}"/>
+    <image href="data:image/jpeg;base64,{AVATAR}" x="873" y="68" width="224" height="224" clip-path="url(#face)" preserveAspectRatio="xMidYMid slice"/>
+    <circle cx="985" cy="180" r="112" fill="none" stroke="{t['card_line']}" stroke-width="1"/>
     <text x="80" y="120" class="aka">Hi, I&#8217;m</text>
     <text x="80" y="190" class="name">{escape(name)}</text>
     <text x="80" y="246" class="role r0">{escape(roles[0])}</text>
     {role_spans[role_spans.index('</text>') + 7:]}
-    <text x="80" y="330" class="loc">Dhaka, Bangladesh <tspan fill="{t['a1']}">/</tspan> BCSE at IUBAT <tspan fill="{t['a1']}">/</tspan> aka Ricky<tspan class="cursor" fill="{t['a1']}"> _</tspan></text>
+    <text x="80" y="330" class="loc">Founder, Bohuvuj Softwares <tspan fill="{t['a1']}">/</tspan> BCSE at IUBAT <tspan fill="{t['a1']}">/</tspan> Dhaka<tspan class="cursor" fill="{t['a1']}"> _</tspan></text>
     <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="22" fill="none" stroke="{t['card_line']}"/>
   </g>
 </svg>
@@ -148,7 +165,7 @@ def hero(t, name):
 PROJECTS = [
     {
         "id": "collectra", "title": "Collectra CMS", "status": "Live",
-        "lines": ["Field collection and hire-purchase accounts", "for retail branches across Bangladesh."],
+        "lines": ["Collections and hire-purchase accounts for", "retail branches, with Android and iPhone apps."],
         "tags": ["React", "Supabase", "Capacitor"], "accent": "a1", "glyph": "shield",
     },
     {
@@ -157,14 +174,24 @@ PROJECTS = [
         "tags": ["three.js", "MapLibre", "Node"], "accent": "a2", "glyph": "globe",
     },
     {
-        "id": "systracker", "title": "SysTracker", "status": "Active",
+        "id": "systracker", "title": "SysTracker", "status": "Live",
         "lines": ["Self-hosted monitoring for a fleet of", "machines: CPU, memory, disk, network."],
         "tags": ["Docker", "Node", "Agents"], "accent": "a4", "glyph": "pulse",
     },
     {
-        "id": "homelab", "title": "Homelab", "status": "Running",
-        "lines": ["My own Linux server for apps in Docker,", "plus Wi-Fi sensing with ESP32-C6 nodes."],
-        "tags": ["Linux", "ESP32", "Cloudflare"], "accent": "a3", "glyph": "chip",
+        "id": "perfumevault", "title": "Perfume Vault", "status": "Live",
+        "lines": ["A perfume storefront with its own admin", "and content tools, for a Dhaka retailer."],
+        "tags": ["Next.js", "Supabase", "Tailwind"], "accent": "a3", "glyph": "bottle",
+    },
+    {
+        "id": "advance", "title": "Advance Manager", "status": "Live",
+        "lines": ["Tracks advance payments across companies,", "vendors and crews, request to settlement."],
+        "tags": ["TypeScript", "PostgreSQL", "Docker"], "accent": "a1", "glyph": "ledger",
+    },
+    {
+        "id": "messmanager", "title": "MessManager", "status": "Live",
+        "lines": ["Meals, groceries and dues for a shared mess:", "meal rate, ledgers and settlement."],
+        "tags": ["Next.js", "Supabase", "PWA"], "accent": "a2", "glyph": "bowl",
     },
 ]
 
@@ -176,6 +203,12 @@ def glyph(kind, c):
         return f'<circle r="15" fill="none" stroke="{c}" stroke-width="2"/><ellipse rx="6.5" ry="15" fill="none" stroke="{c}" stroke-width="1.6"/><path d="M-15 0 H15 M-12 -8 H12 M-12 8 H12" stroke="{c}" stroke-width="1.4"/>'
     if kind == "pulse":
         return f'<path d="M-16 2 H-8 L-4 -10 L2 12 L6 -2 H16" fill="none" stroke="{c}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>'
+    if kind == "bottle":
+        return f'<rect x="-9" y="-6" width="18" height="22" rx="5" fill="none" stroke="{c}" stroke-width="2"/><rect x="-4" y="-14" width="8" height="8" rx="1.5" fill="none" stroke="{c}" stroke-width="2"/><path d="M-5 4 H5" stroke="{c}" stroke-width="1.6"/>'
+    if kind == "ledger":
+        return f'<rect x="-12" y="-15" width="24" height="30" rx="3" fill="none" stroke="{c}" stroke-width="2"/><path d="M-6 -6 H6 M-6 0 H6 M-6 6 H2" stroke="{c}" stroke-width="1.8" stroke-linecap="round"/>'
+    if kind == "bowl":
+        return f'<path d="M-15 -1 H15 C15 10 7 15 0 15 C-7 15 -15 10 -15 -1 Z" fill="none" stroke="{c}" stroke-width="2"/><path d="M-5 -6 C-7 -9 -3 -11 -5 -14 M3 -6 C1 -9 5 -11 3 -14" fill="none" stroke="{c}" stroke-width="1.6" stroke-linecap="round"/>'
     return f'<rect x="-10" y="-10" width="20" height="20" rx="3" fill="none" stroke="{c}" stroke-width="2"/><path d="M-5 -14 V-10 M0 -14 V-10 M5 -14 V-10 M-5 10 V14 M0 10 V14 M5 10 V14 M-14 -5 H-10 M-14 0 H-10 M-14 5 H-10 M10 -5 H14 M10 0 H14 M10 5 H14" stroke="{c}" stroke-width="1.6"/>'
 
 
@@ -250,11 +283,63 @@ def footer(t):
 '''
 
 
+MILESTONES = [
+    ("Jun 2025", "Purrfect Feeder", "first IoT build"),
+    ("Jan 2026", "Pdf2Estimate", "bids from PDFs"),
+    ("Feb 2026", "SysTracker", "fleet monitoring"),
+    ("Apr 2026", "Bohuvuj Softwares", "the studio starts"),
+    ("Sep 2026", "Client platforms", "MessManager, ERP"),
+    ("Oct 2026", "Collectra CMS", "live in branches"),
+]
+
+
+def timeline(t):
+    w, h = 1200, 210
+    n = len(MILESTONES)
+    x0, x1, y = 90, 1110, 92
+    step = (x1 - x0) / (n - 1)
+    nodes = []
+    for i, (when, what, note) in enumerate(MILESTONES):
+        x = x0 + i * step
+        last = i == n - 1
+        c = t["a1"] if last else t[["a4", "a2", "a3"][i % 3]]
+        nodes.append(f'''<g>
+      {f'<circle cx="{x:.0f}" cy="{y}" r="9" fill="{c}" class="ping"/>' if last else ''}
+      <circle cx="{x:.0f}" cy="{y}" r="{7 if last else 5.5}" fill="{t['card']}" stroke="{c}" stroke-width="2.5"/>
+      <text x="{x:.0f}" y="{y - 26}" class="when" text-anchor="middle">{escape(when)}</text>
+      <text x="{x:.0f}" y="{y + 40}" class="what" text-anchor="middle">{escape(what)}</text>
+      <text x="{x:.0f}" y="{y + 62}" class="note" text-anchor="middle">{escape(note)}</text>
+    </g>''')
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Milestones: {escape('; '.join(f'{a} {b}' for a, b, _ in MILESTONES))}">
+  <title>Milestones</title>
+  <defs>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="{x0}" y1="0" x2="{x1}" y2="0">
+      <stop offset="0" stop-color="{t['a4']}" stop-opacity=".2"/><stop offset=".6" stop-color="{t['a2']}"/><stop offset="1" stop-color="{t['a1']}"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .when {{ font: 600 14px {MONO}; fill: {t['ink3']}; letter-spacing: .3px; }}
+    .what {{ font: 700 17px {FONT}; fill: {t['ink']}; }}
+    .note {{ font: 400 14px {FONT}; fill: {t['ink2']}; }}
+    .run {{ stroke-dasharray: 6 1000; animation: run 6s linear infinite; }}
+    @keyframes run {{ from{{stroke-dashoffset:0}} to{{stroke-dashoffset:-1030}} }}
+    .ping {{ transform-box: fill-box; transform-origin: center; animation: ping 2.4s ease-out infinite; }}
+    @keyframes ping {{ 0%{{transform:scale(1);opacity:.6}} 80%,100%{{transform:scale(2.4);opacity:0}} }}
+    {REDUCED}
+  </style>
+  <path d="M{x0} {y} H{x1}" stroke="url(#line)" stroke-width="2.5" fill="none"/>
+  <path d="M{x0} {y} H{x1}" stroke="{t['ink']}" stroke-width="3" fill="none" stroke-linecap="round" class="run" opacity=".8"/>
+  {"".join(nodes)}
+</svg>
+'''
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     for mode, t in THEMES.items():
         (OUT / f"hero-{mode}.svg").write_text(hero(t, "Redwan Rashid"), encoding="utf-8")
         (OUT / f"footer-{mode}.svg").write_text(footer(t), encoding="utf-8")
+        (OUT / f"milestones-{mode}.svg").write_text(timeline(t), encoding="utf-8")
         for p in PROJECTS:
             (OUT / f"card-{p['id']}-{mode}.svg").write_text(card(t, p), encoding="utf-8")
     print("wrote", len(list(OUT.glob("*.svg"))), "files to", OUT)

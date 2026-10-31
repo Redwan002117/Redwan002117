@@ -1,51 +1,60 @@
 <a href="https://rico.bd/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <img alt="Redwan Rashid (Ricky): I build software that reaches into hardware." src="assets/hero-light.svg" width="100%">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img alt="Redwan Rashid (Ricky), founder of Bohuvuj Softwares: I build software that reaches into hardware." src="assets/hero-light.svg" width="100%"></picture>
 </a>
 
 <br>
 
-I like the place where software meets the physical world. Most days that means full-stack apps that real people depend on; on the other days it is a microcontroller on the desk, a server humming in the corner, or a logo that will not sit right yet. I study Computer Science and Engineering at IUBAT and keep my work at **[rico.bd](https://rico.bd/)**.
+I like the place where software meets the physical world. Most days that means full-stack apps that real people depend on; other days it is a microcontroller on the desk, a server humming in the corner, or a logo that will not sit right yet.
+
+I founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)**, a small studio in Dhaka that builds web platforms, custom software and mobile apps for teams who mean to still be running them in five years. Most of what is below shipped under Bohuvuj. I also study Computer Science and Engineering at IUBAT, and keep a portfolio at **[rico.bd](https://rico.bd/)**.
 
 ### Now building
 
 <p>
-  <a href="https://singercms.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-collectra-dark.svg"><img alt="Collectra CMS: field collection and hire-purchase accounts for retail branches across Bangladesh. Live." src="assets/card-collectra-light.svg" width="49%"></picture></a>
+  <a href="https://singercms.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-collectra-dark.svg"><img alt="Collectra CMS: collections and hire-purchase accounts for retail branches, with Android and iPhone apps. Live." src="assets/card-collectra-light.svg" width="49%"></picture></a>
   <a href="https://rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-timeforge-dark.svg"><img alt="TimeForge: an open-world builder on the real map of Earth, running in the browser. Building." src="assets/card-timeforge-light.svg" width="49%"></picture></a>
-  <a href="https://rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-systracker-dark.svg"><img alt="SysTracker: self-hosted monitoring for a fleet of machines. Active." src="assets/card-systracker-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/Redwan002117/RuView"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-homelab-dark.svg"><img alt="Homelab: my own Linux server for apps in Docker, plus Wi-Fi sensing with ESP32-C6 nodes. Running." src="assets/card-homelab-light.svg" width="49%"></picture></a>
+  <a href="https://systracker.rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-systracker-dark.svg"><img alt="SysTracker: self-hosted monitoring for a fleet of machines. Live." src="assets/card-systracker-light.svg" width="49%"></picture></a>
+  <a href="https://perfumevaultbd.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-perfumevault-dark.svg"><img alt="Perfume Vault: a perfume storefront with its own admin and content tools. Live." src="assets/card-perfumevault-light.svg" width="49%"></picture></a>
+  <a href="https://advance.rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-advance-dark.svg"><img alt="Advance Manager: tracks advance payments across companies, vendors and crews. Live." src="assets/card-advance-light.svg" width="49%"></picture></a>
+  <a href="https://mess.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-messmanager-dark.svg"><img alt="MessManager: meals, groceries and dues for a shared mess. Live." src="assets/card-messmanager-light.svg" width="49%"></picture></a>
 </p>
 
-Also on the bench: an **ESP32 line-follower** you drive over its own Wi-Fi page, **Purrfect Feeder** for a cat with opinions, **Subash**, a fragrance storefront, and IT work for **SK IT Centre**.
+### Milestones
 
-### Toolbox
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/milestones-dark.svg"><img alt="Milestones: Jun 2025 Purrfect Feeder; Jan 2026 Pdf2Estimate; Feb 2026 SysTracker; Apr 2026 Bohuvuj Softwares; Sep 2026 client platforms; Oct 2026 Collectra CMS live in branches." src="assets/milestones-light.svg" width="100%"></picture>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,py,c,cpp,go,java,php,powershell,react,nextjs,svelte,vue,tailwind,flutter,threejs,nodejs,postgres,supabase,prisma,redis,mysql,sqlite,firebase,docker,linux,nginx,cloudflare,vercel,netlify,gcp,githubactions,git,raspberrypi,arduino,figma,ai,ae&perline=13&theme=dark">
-    <img alt="TypeScript, JavaScript, Python, C, C++, Go, Java, PHP, PowerShell, React, Next.js, Svelte, Vue, Tailwind, Flutter, three.js, Node.js, PostgreSQL, Supabase, Prisma, Redis, MySQL, SQLite, Firebase, Docker, Linux, nginx, Cloudflare, Vercel, Netlify, Google Cloud, GitHub Actions, Git, Raspberry Pi, Arduino, Figma, Illustrator, After Effects" src="https://skillicons.dev/icons?i=ts,js,py,c,cpp,go,java,php,powershell,react,nextjs,svelte,vue,tailwind,flutter,threejs,nodejs,postgres,supabase,prisma,redis,mysql,sqlite,firebase,docker,linux,nginx,cloudflare,vercel,netlify,gcp,githubactions,git,raspberrypi,arduino,figma,ai,ae&perline=13&theme=light">
-  </picture>
-</p>
+### More from the workbench
+
+| Project | What it is | |
+|---|---|---|
+| **BeeEzee** | ERP and CRM for a growing business, built at Bohuvuj | [beeezee.bohuvuj.com](https://beeezee.bohuvuj.com/) |
+| **BohuPay** | A drop-in payment modal for Bangladeshi gateways | Bohuvuj |
+| **Bohuvuj Brand Kit** | Visiting cards, ID cards and email signatures for the team | Bohuvuj |
+| **Subash** | A fragrance storefront | [suubas.com](https://suubas.com/) |
+| **Pdf2Estimate** | Turns bid PDFs into estimates | [bid.rico.bd](https://bid.rico.bd/) |
+| **Purrfect Feeder** | An ESP32 pet feeder you run from your phone | [purrfectfeeder.rico.bd](https://purrfectfeeder.rico.bd/) |
+| **Homelab** | A Linux server running my apps in Docker, and Wi-Fi sensing on ESP32-C6 | at home |
+| **D_A_GeoFormer** | Research code from my thesis work | [repo](https://github.com/Redwan002117/D_A_GeoFormer) |
+| **EXOPLANET** | Notebooks exploring exoplanet data | [repo](https://github.com/Redwan002117/EXOPLANET) |
+
+### Stack
+
+<table>
+<tr><td><b>Languages</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Cpy%2Cc%2Ccpp%2Cgo%2Cjava%2Cphp%2Cpowershell&theme=dark"><img alt="TypeScript, JavaScript, Python, C, C++, Go, Java, PHP, PowerShell" src="https://skillicons.dev/icons?i=ts%2Cjs%2Cpy%2Cc%2Ccpp%2Cgo%2Cjava%2Cphp%2Cpowershell&theme=light" height="44"></picture></td></tr>
+<tr><td><b>Frontend and mobile</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cnextjs%2Cvite%2Ctailwind%2Csvelte%2Cvue%2Cflutter%2Cthreejs&theme=dark"><img alt="React, Next.js, Vite, Tailwind, Svelte, Vue, Flutter, three.js" src="https://skillicons.dev/icons?i=react%2Cnextjs%2Cvite%2Ctailwind%2Csvelte%2Cvue%2Cflutter%2Cthreejs&theme=light" height="44"></picture></td></tr>
+<tr><td><b>Backend and data</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cexpress%2Cpostgres%2Csupabase%2Cprisma%2Credis%2Cmysql%2Csqlite%2Cfirebase&theme=dark"><img alt="Node.js, Express, PostgreSQL, Supabase, Prisma, Redis, MySQL, SQLite, Firebase" src="https://skillicons.dev/icons?i=nodejs%2Cexpress%2Cpostgres%2Csupabase%2Cprisma%2Credis%2Cmysql%2Csqlite%2Cfirebase&theme=light" height="44"></picture></td></tr>
+<tr><td><b>Cloud and ops</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker%2Clinux%2Cnginx%2Ccloudflare%2Cvercel%2Cnetlify%2Cgcp%2Cgithubactions%2Cgit&theme=dark"><img alt="Docker, Linux, nginx, Cloudflare, Vercel, Netlify, Google Cloud, GitHub Actions, Git" src="https://skillicons.dev/icons?i=docker%2Clinux%2Cnginx%2Ccloudflare%2Cvercel%2Cnetlify%2Cgcp%2Cgithubactions%2Cgit&theme=light" height="44"></picture></td></tr>
+<tr><td><b>Hardware and design</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=arduino%2Craspberrypi%2Cfigma%2Cai%2Cae&theme=dark"><img alt="Arduino and ESP32, Raspberry Pi, Figma, Illustrator, After Effects" src="https://skillicons.dev/icons?i=arduino%2Craspberrypi%2Cfigma%2Cai%2Cae&theme=light" height="44"></picture></td></tr>
+</table>
 
 ### In numbers
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/card?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&size=compact">
-    <img alt="GitHub stats" src="https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=16&size=compact" height="176">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/langs?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&layout=compact">
-    <img alt="Most used languages" src="https://ghstats.dev/api/langs?username=Redwan002117&theme=light&border_radius=16&layout=compact" height="176">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/card?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&size=compact"><img alt="GitHub stats" src="https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=16&size=compact" height="176"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/langs?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&layout=compact"><img alt="Most used languages" src="https://ghstats.dev/api/langs?username=Redwan002117&theme=light&border_radius=16&layout=compact" height="176"></picture>
 </p>
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=dark&hide_border=true&days=90&width=880&height=140">
-    <img alt="Contributions over the last 90 days" src="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=light&days=90&width=880&height=140" width="100%">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=dark&hide_border=true&days=90&width=880&height=140"><img alt="Contributions over the last 90 days" src="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=light&days=90&width=880&height=140" width="100%"></picture>
 </p>
 
 ### Find me
@@ -65,11 +74,8 @@ Also on the bench: an **ESP32 line-follower** you drive over its own Wi-Fi page,
   <a href="mailto:redwanrashidrico@gmail.com"><img alt="Email" src="https://cdn.simpleicons.org/gmail/8b9bb4" height="22"></a>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <img alt="" src="assets/footer-light.svg" width="100%">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><img alt="" src="assets/footer-light.svg" width="100%"></picture>
 
 <p align="center"><img alt="Profile views" src="https://komarev.com/ghpvc/?username=redwan002117&label=visits&color=7c8cff&style=flat-square"></p>
 
-<!-- Artwork: tools/build_assets.py draws assets/*.svg (light and dark). -->
+<!-- Generated by tools/build_readme.py; artwork by tools/build_assets.py. -->
