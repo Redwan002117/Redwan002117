@@ -1,5 +1,5 @@
 <a href="https://rico.bd/">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img alt="Redwan Rashid (Ricky), founder of Bohuvuj Softwares: I build software that reaches into hardware." src="assets/hero-light.svg" width="100%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=2"><img alt="Redwan Rashid (Ricky), founder of Bohuvuj Softwares: I build software that reaches into hardware." src="assets/hero-light.svg?v=2" width="100%"></picture>
 </a>
 
 <br>
@@ -11,17 +11,17 @@ I founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)**, a small studio in
 ### Now building
 
 <p>
-  <a href="https://singercms.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-collectra-dark.svg"><img alt="Collectra CMS: collections and hire-purchase accounts for retail branches, with Android and iPhone apps. Live." src="assets/card-collectra-light.svg" width="49%"></picture></a>
-  <a href="https://rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-timeforge-dark.svg"><img alt="TimeForge: an open-world builder on the real map of Earth, running in the browser. Building." src="assets/card-timeforge-light.svg" width="49%"></picture></a>
-  <a href="https://systracker.rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-systracker-dark.svg"><img alt="SysTracker: self-hosted monitoring for a fleet of machines. Live." src="assets/card-systracker-light.svg" width="49%"></picture></a>
-  <a href="https://perfumevaultbd.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-perfumevault-dark.svg"><img alt="Perfume Vault: a perfume storefront with its own admin and content tools. Live." src="assets/card-perfumevault-light.svg" width="49%"></picture></a>
-  <a href="https://advance.rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-advance-dark.svg"><img alt="Advance Manager: tracks advance payments across companies, vendors and crews. Live." src="assets/card-advance-light.svg" width="49%"></picture></a>
-  <a href="https://mess.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-messmanager-dark.svg"><img alt="MessManager: meals, groceries and dues for a shared mess. Live." src="assets/card-messmanager-light.svg" width="49%"></picture></a>
+  <a href="https://singercms.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-collectra-dark.svg?v=2"><img alt="Collectra CMS: collections and hire-purchase accounts for retail branches, with Android and iPhone apps. Live." src="assets/card-collectra-light.svg?v=2" width="49%"></picture></a>
+  <a href="https://rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-timeforge-dark.svg?v=2"><img alt="TimeForge: an open-world builder on the real map of Earth, running in the browser. Building." src="assets/card-timeforge-light.svg?v=2" width="49%"></picture></a>
+  <a href="https://systracker.rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-systracker-dark.svg?v=2"><img alt="SysTracker: self-hosted monitoring for a fleet of machines. Live." src="assets/card-systracker-light.svg?v=2" width="49%"></picture></a>
+  <a href="https://perfumevaultbd.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-perfumevault-dark.svg?v=2"><img alt="Perfume Vault: a perfume storefront with its own admin and content tools. Live." src="assets/card-perfumevault-light.svg?v=2" width="49%"></picture></a>
+  <a href="https://advance.rico.bd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-advance-dark.svg?v=2"><img alt="Advance Manager: tracks advance payments across companies, vendors and crews. Live." src="assets/card-advance-light.svg?v=2" width="49%"></picture></a>
+  <a href="https://mess.bohuvuj.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-messmanager-dark.svg?v=2"><img alt="MessManager: meals, groceries and dues for a shared mess. Live." src="assets/card-messmanager-light.svg?v=2" width="49%"></picture></a>
 </p>
 
 ### Milestones
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/milestones-dark.svg"><img alt="Milestones: Jun 2025 Purrfect Feeder; Jan 2026 Pdf2Estimate; Feb 2026 SysTracker; Apr 2026 Bohuvuj Softwares; Sep 2026 client platforms; Oct 2026 Collectra CMS live in branches." src="assets/milestones-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/milestones-dark.svg?v=2"><img alt="Milestones: Jun 2025 Purrfect Feeder; Feb 2026 SysTracker; Apr 2026 Bohuvuj Softwares; Sep 2026 client platforms; Oct 2026 Collectra CMS live in branches." src="assets/milestones-light.svg?v=2" width="100%"></picture>
 
 ### More from the workbench
 
@@ -29,9 +29,7 @@ I founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)**, a small studio in
 |---|---|---|
 | **BeeEzee** | ERP and CRM for a growing business, built at Bohuvuj | [beeezee.bohuvuj.com](https://beeezee.bohuvuj.com/) |
 | **BohuPay** | A drop-in payment modal for Bangladeshi gateways | Bohuvuj |
-| **Bohuvuj Brand Kit** | Visiting cards, ID cards and email signatures for the team | Bohuvuj |
 | **Subash** | A fragrance storefront | [suubas.com](https://suubas.com/) |
-| **Pdf2Estimate** | Turns bid PDFs into estimates | [bid.rico.bd](https://bid.rico.bd/) |
 | **Purrfect Feeder** | An ESP32 pet feeder you run from your phone | [purrfectfeeder.rico.bd](https://purrfectfeeder.rico.bd/) |
 | **Homelab** | A Linux server running my apps in Docker, and Wi-Fi sensing on ESP32-C6 | at home |
 | **D_A_GeoFormer** | Research code from my thesis work | [repo](https://github.com/Redwan002117/D_A_GeoFormer) |
@@ -74,7 +72,7 @@ I founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)**, a small studio in
   <a href="mailto:redwanrashidrico@gmail.com"><img alt="Email" src="https://cdn.simpleicons.org/gmail/8b9bb4" height="22"></a>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><img alt="" src="assets/footer-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg?v=2"><img alt="" src="assets/footer-light.svg?v=2" width="100%"></picture>
 
 <p align="center"><img alt="Profile views" src="https://komarev.com/ghpvc/?username=redwan002117&label=visits&color=7c8cff&style=flat-square"></p>
 

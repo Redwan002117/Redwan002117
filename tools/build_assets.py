@@ -285,7 +285,6 @@ def footer(t):
 
 MILESTONES = [
     ("Jun 2025", "Purrfect Feeder", "first IoT build"),
-    ("Jan 2026", "Pdf2Estimate", "bids from PDFs"),
     ("Feb 2026", "SysTracker", "fleet monitoring"),
     ("Apr 2026", "Bohuvuj Softwares", "the studio starts"),
     ("Sep 2026", "Client platforms", "MessManager, ERP"),

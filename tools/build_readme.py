@@ -5,13 +5,15 @@
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+# Bump when the artwork changes: GitHub caches images by URL.
+V = 2
 
 
 def pic(name, alt, width="49%"):
     """A light/dark pair of local artwork that follows the GitHub theme."""
     return (
-        f'<picture><source media="(prefers-color-scheme: dark)" srcset="assets/{name}-dark.svg">'
-        f'<img alt="{alt}" src="assets/{name}-light.svg" width="{width}"></picture>'
+        f'<picture><source media="(prefers-color-scheme: dark)" srcset="assets/{name}-dark.svg?v={V}">'
+        f'<img alt="{alt}" src="assets/{name}-light.svg?v={V}" width="{width}"></picture>'
     )
 
 
@@ -44,9 +46,7 @@ CARDS = [
 MORE = [
     ("BeeEzee", "ERP and CRM for a growing business, built at Bohuvuj", "[beeezee.bohuvuj.com](https://beeezee.bohuvuj.com/)"),
     ("BohuPay", "A drop-in payment modal for Bangladeshi gateways", "Bohuvuj"),
-    ("Bohuvuj Brand Kit", "Visiting cards, ID cards and email signatures for the team", "Bohuvuj"),
     ("Subash", "A fragrance storefront", "[suubas.com](https://suubas.com/)"),
-    ("Pdf2Estimate", "Turns bid PDFs into estimates", "[bid.rico.bd](https://bid.rico.bd/)"),
     ("Purrfect Feeder", "An ESP32 pet feeder you run from your phone", "[purrfectfeeder.rico.bd](https://purrfectfeeder.rico.bd/)"),
     ("Homelab", "A Linux server running my apps in Docker, and Wi-Fi sensing on ESP32-C6", "at home"),
     ("D_A_GeoFormer", "Research code from my thesis work", "[repo](https://github.com/Redwan002117/D_A_GeoFormer)"),
@@ -83,7 +83,7 @@ def main():
     stack = "\n".join(f"<tr><td><b>{label}</b></td><td>{icons(ids, alt)}</td></tr>" for label, ids, alt in STACK)
     socials = "&nbsp;&nbsp;\n".join(f'  <a href="{url}"><img alt="{n}" src="{src}" height="22"></a>' for n, url, src in SOCIALS)
     hero_alt = "Redwan Rashid (Ricky), founder of Bohuvuj Softwares: I build software that reaches into hardware."
-    milestones_alt = ("Milestones: Jun 2025 Purrfect Feeder; Jan 2026 Pdf2Estimate; Feb 2026 SysTracker; "
+    milestones_alt = ("Milestones: Jun 2025 Purrfect Feeder; Feb 2026 SysTracker; "
                       "Apr 2026 Bohuvuj Softwares; Sep 2026 client platforms; Oct 2026 Collectra CMS live in branches.")
     readme = f"""<a href="https://rico.bd/">
   {pic("hero", hero_alt, "100%")}
