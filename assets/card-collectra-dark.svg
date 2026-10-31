@@ -21,7 +21,8 @@
   <g clip-path="url(#frame)">
     <rect width="580" height="200" fill="#0d1628"/>
     <rect width="580" height="200" fill="url(#glow)" class="glow"/>
-    <g transform="translate(524 52)" opacity=".9"><path d="M0 -15 L13 -9 V2 C13 10 6 15 0 17 C-6 15 -13 10 -13 2 V-9 Z" fill="none" stroke="#3ee6c1" stroke-width="2"/><path d="M-5 1 L-1 5 L6 -3" fill="none" stroke="#3ee6c1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g transform="translate(524 54)"><g transform="translate(-17.0 -17.0) scale(1.4167)" fill="none" stroke="#3ee6c1" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" /></g></g>
     <text x="32" y="62" class="title">Collectra CMS</text>
     <text x="548" y="169" class="status" text-anchor="end">Live</text>
     <circle cx="508" cy="164" r="4.5" fill="#3ee6c1" class="dot"/>

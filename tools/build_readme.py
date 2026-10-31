@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 # Bump when the artwork changes: GitHub caches images by URL.
-V = 5
+V = 6
 
 
 def pic(name, alt, width="49%"):
@@ -93,6 +93,10 @@ def main():
 I like the place where software meets the physical world. Most days that means full-stack apps that real people depend on; other days it is a microcontroller on the desk, a server humming in the corner, or a logo that will not sit right yet.
 
 I co-founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)** and lead its architecture as Chief Architect. Bohuvuj is a small studio in Dhaka that builds web platforms, custom software and mobile apps for teams who mean to still be running them in five years. Most of what is below shipped under Bohuvuj. I also study Computer Science and Engineering at IUBAT, and keep a portfolio at **[rico.bd](https://rico.bd/)**.
+
+<a href="https://github.com/Bohuvuj">
+  {pic("bohuvuj", "Bohuvuj Softwares: built to ship, built to last. Web platforms, software, mobile apps and the cloud systems behind them.", "100%")}
+</a>
 
 ### Now building
 
