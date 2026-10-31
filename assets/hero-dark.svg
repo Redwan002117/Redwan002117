@@ -155,7 +155,7 @@
     <text x="80" y="190" class="name">Redwan Rashid</text>
     <text x="80" y="246" class="role r0">I build software that reaches into hardware.</text>
     <text x="80" y="246" class="role r1">Full-stack apps, shipped and kept running.</text><text x="80" y="246" class="role r2">Homelab, ESP32 and a lot of Docker.</text>
-    <text x="80" y="330" class="loc">Founder, Bohuvuj Softwares <tspan fill="#3ee6c1">/</tspan> BCSE at IUBAT <tspan fill="#3ee6c1">/</tspan> Dhaka<tspan class="cursor" fill="#3ee6c1"> _</tspan></text>
+    <text x="80" y="330" class="loc">Co-founder and Chief Architect, Bohuvuj <tspan fill="#3ee6c1">/</tspan> BCSE at IUBAT <tspan fill="#3ee6c1">/</tspan> Dhaka<tspan class="cursor" fill="#3ee6c1"> _</tspan></text>
     <rect x="0.5" y="0.5" width="1199" height="359" rx="22" fill="none" stroke="#1f2c47"/>
   </g>
 </svg>
