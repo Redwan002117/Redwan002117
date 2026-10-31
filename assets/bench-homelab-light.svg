@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="128" viewBox="0 0 400 128" role="img" aria-label="Homelab: Docker server and ESP32-C6 Wi-Fi sensing">
+  <title>Homelab</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#2dd4bf" stop-opacity=".15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".16"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="400" height="128" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .title { font: 700 19px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #0f1a33; letter-spacing: -.2px; }
+    .line { font: 400 14px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #43506b; }
+    .where { font: 500 12px 'Cascadia Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; fill: #0f8f7e; }
+    .shine { animation: shine 9s ease-in-out infinite; }
+    @keyframes shine { 0%,100%{opacity:.6} 50%{opacity:1} }
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="400" height="128" fill="#ffffff"/>
+    <rect width="400" height="128" fill="url(#glow)" class="shine"/>
+    <rect x="0" y="0" width="4" height="128" fill="url(#edge)"/>
+    <g transform="translate(46 48) scale(.82)"><rect x="-10" y="-10" width="20" height="20" rx="3" fill="none" stroke="#2dd4bf" stroke-width="2"/><path d="M-5 -14 V-10 M0 -14 V-10 M5 -14 V-10 M-5 10 V14 M0 10 V14 M5 10 V14 M-14 -5 H-10 M-14 0 H-10 M-14 5 H-10 M10 -5 H14 M10 0 H14 M10 5 H14" stroke="#2dd4bf" stroke-width="1.6"/></g>
+    <text x="78" y="55" class="title">Homelab</text>
+    <text x="26" y="88" class="line">Docker server and ESP32-C6 Wi-Fi sensing</text>
+    <text x="26" y="110" class="where">at home</text>
+    <rect x=".5" y=".5" width="399" height="127" rx="16" fill="none" stroke="#dde6f3"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="128" viewBox="0 0 400 128" role="img" aria-label="Research: GeoFormer thesis code, exoplanet notebooks">
+  <title>Research</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c8cff"/><stop offset="1" stop-color="#7c8cff" stop-opacity=".15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1"><stop offset="0" stop-color="#7c8cff" stop-opacity=".16"/><stop offset="1" stop-color="#7c8cff" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="400" height="128" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .title { font: 700 19px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #eef4ff; letter-spacing: -.2px; }
+    .line { font: 400 14px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; fill: #a9b8d6; }
+    .where { font: 500 12px 'Cascadia Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; fill: #9aa6ff; }
+    .shine { animation: shine 9s ease-in-out infinite; }
+    @keyframes shine { 0%,100%{opacity:.6} 50%{opacity:1} }
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="400" height="128" fill="#0d1628"/>
+    <rect width="400" height="128" fill="url(#glow)" class="shine"/>
+    <rect x="0" y="0" width="4" height="128" fill="url(#edge)"/>
+    <g transform="translate(46 48) scale(.82)"><circle r="5" fill="#7c8cff"/><ellipse rx="16" ry="7" fill="none" stroke="#7c8cff" stroke-width="1.8" transform="rotate(-25)"/><circle cx="13" cy="-8" r="2.5" fill="#7c8cff"/></g>
+    <text x="78" y="55" class="title">Research</text>
+    <text x="26" y="88" class="line">GeoFormer thesis code, exoplanet notebooks</text>
+    <text x="26" y="110" class="where">public repos</text>
+    <rect x=".5" y=".5" width="399" height="127" rx="16" fill="none" stroke="#1f2c47"/>
+  </g>
+</svg>
