@@ -283,12 +283,15 @@ def footer(t):
 '''
 
 
+# First commit of each project (git history), not when the repo was made.
 MILESTONES = [
     ("Jun 2025", "Purrfect Feeder", "first IoT build"),
     ("Feb 2026", "SysTracker", "fleet monitoring"),
-    ("Apr 2026", "Bohuvuj Softwares", "the studio starts"),
-    ("Sep 2026", "Client platforms", "MessManager, ERP"),
-    ("Oct 2026", "Collectra CMS", "live in branches"),
+    ("Apr 2026", "Bohuvuj Softwares", "bohuvuj.com goes up"),
+    ("Apr 2026", "Perfume Vault", "storefront and admin"),
+    ("Jul 2026", "BeeEzee", "ERP and CRM"),
+    ("Sep 2026", "Collectra CMS", "live in October"),
+    ("Oct 2026", "TimeForge", "the open world"),
 ]
 
 

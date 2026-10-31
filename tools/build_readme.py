@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 # Bump when the artwork changes: GitHub caches images by URL.
-V = 2
+V = 3
 
 
 def pic(name, alt, width="49%"):
@@ -83,8 +83,8 @@ def main():
     stack = "\n".join(f"<tr><td><b>{label}</b></td><td>{icons(ids, alt)}</td></tr>" for label, ids, alt in STACK)
     socials = "&nbsp;&nbsp;\n".join(f'  <a href="{url}"><img alt="{n}" src="{src}" height="22"></a>' for n, url, src in SOCIALS)
     hero_alt = "Redwan Rashid (Ricky), founder of Bohuvuj Softwares: I build software that reaches into hardware."
-    milestones_alt = ("Milestones: Jun 2025 Purrfect Feeder; Feb 2026 SysTracker; "
-                      "Apr 2026 Bohuvuj Softwares; Sep 2026 client platforms; Oct 2026 Collectra CMS live in branches.")
+    milestones_alt = ("Milestones, by first commit: Jun 2025 Purrfect Feeder; Feb 2026 SysTracker; Apr 2026 Bohuvuj Softwares; "
+                      "Apr 2026 Perfume Vault; Jul 2026 BeeEzee; Sep 2026 Collectra CMS, live in October; Oct 2026 TimeForge.")
     readme = f"""<a href="https://rico.bd/">
   {pic("hero", hero_alt, "100%")}
 </a>
