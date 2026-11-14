@@ -51,11 +51,11 @@ I co-founded **[Bohuvuj Softwares](https://github.com/Bohuvuj)** and lead its ar
 ### In numbers
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/card?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&size=compact"><img alt="GitHub stats" src="https://ghstats.dev/api/card?username=Redwan002117&theme=light&border_radius=16&size=compact" height="176"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/langs?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&layout=compact"><img alt="Most used languages" src="https://ghstats.dev/api/langs?username=Redwan002117&theme=light&border_radius=16&layout=compact" height="176"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://stats.rico.bd/api/card?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&size=compact"><img alt="GitHub stats" src="https://stats.rico.bd/api/card?username=Redwan002117&theme=light&border_radius=16&size=compact" height="176"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://stats.rico.bd/api/langs?username=Redwan002117&theme=dark&hide_border=true&border_radius=16&layout=compact"><img alt="Most used languages" src="https://stats.rico.bd/api/langs?username=Redwan002117&theme=light&border_radius=16&layout=compact" height="176"></picture>
 </p>
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=dark&hide_border=true&days=90&width=880&height=140"><img alt="Contributions over the last 90 days" src="https://ghstats.dev/api/sparkline?username=Redwan002117&theme=light&days=90&width=880&height=140" width="100%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://stats.rico.bd/api/sparkline?username=Redwan002117&theme=dark&hide_border=true&days=90&width=880&height=140"><img alt="Contributions over the last 90 days" src="https://stats.rico.bd/api/sparkline?username=Redwan002117&theme=light&days=90&width=880&height=140" width="100%"></picture>
 </p>
 
 ### Find me
